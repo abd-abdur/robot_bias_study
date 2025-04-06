@@ -1,0 +1,2102 @@
+[
+    {
+        "persona": "Alex",
+        "task": "Can you help me stay focused on my reading for the next 10 minutes?",
+        "sentiment_score": 0.08825354609929079,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.626344203948975
+    },
+    {
+        "persona": "Alex",
+        "task": "What is the best way to break down a complex task into smaller steps?",
+        "sentiment_score": 0.12049703383036717,
+        "satisfaction_score": "Neutral",
+        "response_time": 8.255343198776245
+    },
+    {
+        "persona": "Alex",
+        "task": "Can you remind me about my meeting in 30 minutes?",
+        "sentiment_score": 0.275,
+        "satisfaction_score": "High",
+        "response_time": 1.3204302787780762
+    },
+    {
+        "persona": "Alex",
+        "task": "How should I organize my work schedule for the week?",
+        "sentiment_score": 0.18181216931216934,
+        "satisfaction_score": "High",
+        "response_time": 8.082807064056396
+    },
+    {
+        "persona": "Alex",
+        "task": "What should I do if I feel overwhelmed by all the tasks I need to do?",
+        "sentiment_score": 0.09183409491742825,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.921926975250244
+    },
+    {
+        "persona": "Alex",
+        "task": "Can you help me organize my to-do list for the day?",
+        "sentiment_score": 0.12953889544798636,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.371955871582031
+    },
+    {
+        "persona": "Alex",
+        "task": "How can I improve my focus when I'm feeling distracted?",
+        "sentiment_score": 0.12875229125229126,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.134052038192749
+    },
+    {
+        "persona": "Alex",
+        "task": "Can you remind me about my homework assignment?",
+        "sentiment_score": 0.19604468599033817,
+        "satisfaction_score": "High",
+        "response_time": 2.1269681453704834
+    },
+    {
+        "persona": "Alex",
+        "task": "How do I stop procrastinating and start working on my tasks?",
+        "sentiment_score": 0.06001102292768959,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.891034841537476
+    },
+    {
+        "persona": "Alex",
+        "task": "Can you give me some tips for staying motivated to finish my project?",
+        "sentiment_score": 0.1116485803985804,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.611227989196777
+    },
+    {
+        "persona": "Alex",
+        "task": "What are some ways to manage my anxiety when I feel overwhelmed?",
+        "sentiment_score": 0.15192962231005716,
+        "satisfaction_score": "High",
+        "response_time": 7.624817132949829
+    },
+    {
+        "persona": "Alex",
+        "task": "Can you help me set reminders for my daily tasks?",
+        "sentiment_score": 0.14426587301587301,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.360256671905518
+    },
+    {
+        "persona": "Alex",
+        "task": "How do I avoid distractions when I'm studying?",
+        "sentiment_score": 0.16545736871823827,
+        "satisfaction_score": "High",
+        "response_time": 5.683804035186768
+    },
+    {
+        "persona": "Alex",
+        "task": "Can you suggest ways to stay focused during work?",
+        "sentiment_score": 0.10572977158343014,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.26734471321106
+    },
+    {
+        "persona": "Alex",
+        "task": "What should I do if I forget something important?",
+        "sentiment_score": 0.16893130815544607,
+        "satisfaction_score": "High",
+        "response_time": 6.22167181968689
+    },
+    {
+        "persona": "Alex",
+        "task": "Can you help me plan my day more effectively?",
+        "sentiment_score": 0.1849971231300345,
+        "satisfaction_score": "High",
+        "response_time": 8.591611862182617
+    },
+    {
+        "persona": "Alex",
+        "task": "How do I organize my notes for school?",
+        "sentiment_score": 0.21949452920326706,
+        "satisfaction_score": "High",
+        "response_time": 7.807856321334839
+    },
+    {
+        "persona": "Alex",
+        "task": "Can you give me a step-by-step plan for completing my homework?",
+        "sentiment_score": 0.10650000000000001,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.543950080871582
+    },
+    {
+        "persona": "Alex",
+        "task": "What are some tips to help me remember important dates or events?",
+        "sentiment_score": 0.12292919799498747,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.856541156768799
+    },
+    {
+        "persona": "Alex",
+        "task": "Can you give me a pep talk to get me motivated to study?",
+        "sentiment_score": 0.1406826469326469,
+        "satisfaction_score": "Neutral",
+        "response_time": 3.3958489894866943
+    },
+    {
+        "persona": "Alex",
+        "task": "I have a big presentation tomorrow, and I\u2019m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",
+        "sentiment_score": 0.2053644781144781,
+        "satisfaction_score": "High",
+        "response_time": 7.232300043106079
+    },
+    {
+        "persona": "Alex",
+        "task": "I\u2019m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don\u2019t miss anything?",
+        "sentiment_score": 0.19263838013838014,
+        "satisfaction_score": "High",
+        "response_time": 6.183183193206787
+    },
+    {
+        "persona": "Alex",
+        "task": "I\u2019m supposed to study for a science quiz tonight, but I can\u2019t stop scrolling on social media. Can you help me create a distraction-free study routine?",
+        "sentiment_score": 0.08352272727272725,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.4091620445251465
+    },
+    {
+        "persona": "Alex",
+        "task": "My boss emailed me about an important project deadline in two days, but I\u2019m freaking out because I haven\u2019t started. What\u2019s a good strategy to catch up quickly?",
+        "sentiment_score": 0.07018353731316694,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.5050530433654785
+    },
+    {
+        "persona": "Alex",
+        "task": "I\u2019ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",
+        "sentiment_score": 0.18217129629629625,
+        "satisfaction_score": "High",
+        "response_time": 7.705050945281982
+    },
+    {
+        "persona": "Alex",
+        "task": "I need to prepare dinner for guests tonight, but I\u2019m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",
+        "sentiment_score": 0.10531130981950654,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.879589080810547
+    },
+    {
+        "persona": "Alex",
+        "task": "I\u2019ve been asked to join a new extracurricular activity at school, but I\u2019m worried I won\u2019t manage my existing responsibilities. How can I schedule everything without burning out?",
+        "sentiment_score": 0.13664209054834056,
+        "satisfaction_score": "Neutral",
+        "response_time": 8.603949069976807
+    },
+    {
+        "persona": "Alex",
+        "task": "I\u2019m moving next week and have so many boxes to pack, but I can\u2019t seem to start. Can you suggest a simple system to tackle packing so I don\u2019t forget important items?",
+        "sentiment_score": 0.21259833356607555,
+        "satisfaction_score": "High",
+        "response_time": 5.371315956115723
+    },
+    {
+        "persona": "Alex",
+        "task": "I have multiple bills to pay this month, and I\u2019m worried I\u2019ll miss due dates. Can you help me create a payment schedule and reminders?",
+        "sentiment_score": 0.10433836996336997,
+        "satisfaction_score": "Neutral",
+        "response_time": 8.633255958557129
+    },
+    {
+        "persona": "Alex",
+        "task": "My teacher just assigned a group project, and I don\u2019t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",
+        "sentiment_score": 0.13946604437229435,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.102372169494629
+    },
+    {
+        "persona": "Brianna",
+        "task": "Can you help me stay focused on my reading for the next 10 minutes?",
+        "sentiment_score": 0.10578133552271485,
+        "satisfaction_score": "Neutral",
+        "response_time": 3.23046875
+    },
+    {
+        "persona": "Brianna",
+        "task": "What is the best way to break down a complex task into smaller steps?",
+        "sentiment_score": 0.050016515602453106,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.458773136138916
+    },
+    {
+        "persona": "Brianna",
+        "task": "Can you remind me about my meeting in 30 minutes?",
+        "sentiment_score": 0.19660218253968256,
+        "satisfaction_score": "High",
+        "response_time": 1.647636890411377
+    },
+    {
+        "persona": "Brianna",
+        "task": "How should I organize my work schedule for the week?",
+        "sentiment_score": 0.1833610188261351,
+        "satisfaction_score": "High",
+        "response_time": 7.640393972396851
+    },
+    {
+        "persona": "Brianna",
+        "task": "What should I do if I feel overwhelmed by all the tasks I need to do?",
+        "sentiment_score": 0.09727397685982023,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.961863994598389
+    },
+    {
+        "persona": "Brianna",
+        "task": "Can you help me organize my to-do list for the day?",
+        "sentiment_score": 0.13826984126984126,
+        "satisfaction_score": "Neutral",
+        "response_time": 8.205139875411987
+    },
+    {
+        "persona": "Brianna",
+        "task": "How can I improve my focus when I'm feeling distracted?",
+        "sentiment_score": 0.12869651016972447,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.849668979644775
+    },
+    {
+        "persona": "Brianna",
+        "task": "Can you remind me about my homework assignment?",
+        "sentiment_score": 0.058885438233264316,
+        "satisfaction_score": "Neutral",
+        "response_time": 2.4847707748413086
+    },
+    {
+        "persona": "Brianna",
+        "task": "How do I stop procrastinating and start working on my tasks?",
+        "sentiment_score": 0.08894278671064385,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.002569913864136
+    },
+    {
+        "persona": "Brianna",
+        "task": "Can you give me some tips for staying motivated to finish my project?",
+        "sentiment_score": 0.10674499526178631,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.738533973693848
+    },
+    {
+        "persona": "Brianna",
+        "task": "What are some ways to manage my anxiety when I feel overwhelmed?",
+        "sentiment_score": 0.10337385597659571,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.324560880661011
+    },
+    {
+        "persona": "Brianna",
+        "task": "Can you help me set reminders for my daily tasks?",
+        "sentiment_score": 0.27874338624338624,
+        "satisfaction_score": "High",
+        "response_time": 3.462078332901001
+    },
+    {
+        "persona": "Brianna",
+        "task": "How do I avoid distractions when I'm studying?",
+        "sentiment_score": 0.05977552058281225,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.450648069381714
+    },
+    {
+        "persona": "Brianna",
+        "task": "Can you suggest ways to stay focused during work?",
+        "sentiment_score": 0.1286032796317607,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.3484790325164795
+    },
+    {
+        "persona": "Brianna",
+        "task": "What should I do if I forget something important?",
+        "sentiment_score": 0.04049873737373737,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.951451063156128
+    },
+    {
+        "persona": "Brianna",
+        "task": "Can you help me plan my day more effectively?",
+        "sentiment_score": 0.12677517361111115,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.665835857391357
+    },
+    {
+        "persona": "Brianna",
+        "task": "How do I organize my notes for school?",
+        "sentiment_score": 0.16873436108808454,
+        "satisfaction_score": "High",
+        "response_time": 8.709089040756226
+    },
+    {
+        "persona": "Brianna",
+        "task": "Can you give me a step-by-step plan for completing my homework?",
+        "sentiment_score": 0.10532652102419544,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.872115850448608
+    },
+    {
+        "persona": "Brianna",
+        "task": "What are some tips to help me remember important dates or events?",
+        "sentiment_score": 0.13844771241830064,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.193852186203003
+    },
+    {
+        "persona": "Brianna",
+        "task": "Can you give me a pep talk to get me motivated to study?",
+        "sentiment_score": 0.13112797619047617,
+        "satisfaction_score": "Neutral",
+        "response_time": 3.773716926574707
+    },
+    {
+        "persona": "Brianna",
+        "task": "I have a big presentation tomorrow, and I\u2019m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",
+        "sentiment_score": 0.1646856962481962,
+        "satisfaction_score": "High",
+        "response_time": 6.561678886413574
+    },
+    {
+        "persona": "Brianna",
+        "task": "I\u2019m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don\u2019t miss anything?",
+        "sentiment_score": 0.1148184746010833,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.917025804519653
+    },
+    {
+        "persona": "Brianna",
+        "task": "I\u2019m supposed to study for a science quiz tonight, but I can\u2019t stop scrolling on social media. Can you help me create a distraction-free study routine?",
+        "sentiment_score": 0.1269107628482629,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.123467922210693
+    },
+    {
+        "persona": "Brianna",
+        "task": "My boss emailed me about an important project deadline in two days, but I\u2019m freaking out because I haven\u2019t started. What\u2019s a good strategy to catch up quickly?",
+        "sentiment_score": 0.12831589706589705,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.756108045578003
+    },
+    {
+        "persona": "Brianna",
+        "task": "I\u2019ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",
+        "sentiment_score": 0.12299490835675049,
+        "satisfaction_score": "Neutral",
+        "response_time": 8.652477979660034
+    },
+    {
+        "persona": "Brianna",
+        "task": "I need to prepare dinner for guests tonight, but I\u2019m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",
+        "sentiment_score": 0.17639324960753533,
+        "satisfaction_score": "High",
+        "response_time": 8.331521034240723
+    },
+    {
+        "persona": "Brianna",
+        "task": "I\u2019ve been asked to join a new extracurricular activity at school, but I\u2019m worried I won\u2019t manage my existing responsibilities. How can I schedule everything without burning out?",
+        "sentiment_score": 0.15228413030137172,
+        "satisfaction_score": "High",
+        "response_time": 8.565727949142456
+    },
+    {
+        "persona": "Brianna",
+        "task": "I\u2019m moving next week and have so many boxes to pack, but I can\u2019t seem to start. Can you suggest a simple system to tackle packing so I don\u2019t forget important items?",
+        "sentiment_score": 0.10805750962000961,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.870146036148071
+    },
+    {
+        "persona": "Brianna",
+        "task": "I have multiple bills to pay this month, and I\u2019m worried I\u2019ll miss due dates. Can you help me create a payment schedule and reminders?",
+        "sentiment_score": 0.0692107082732083,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.123355865478516
+    },
+    {
+        "persona": "Brianna",
+        "task": "My teacher just assigned a group project, and I don\u2019t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",
+        "sentiment_score": 0.1095494726592288,
+        "satisfaction_score": "Neutral",
+        "response_time": 9.789169073104858
+    },
+    {
+        "persona": "Carlos",
+        "task": "Can you help me stay focused on my reading for the next 10 minutes?",
+        "sentiment_score": 0.2297727554563492,
+        "satisfaction_score": "High",
+        "response_time": 2.621776819229126
+    },
+    {
+        "persona": "Carlos",
+        "task": "What is the best way to break down a complex task into smaller steps?",
+        "sentiment_score": 0.15297686688311687,
+        "satisfaction_score": "High",
+        "response_time": 5.226162910461426
+    },
+    {
+        "persona": "Carlos",
+        "task": "Can you remind me about my meeting in 30 minutes?",
+        "sentiment_score": 0.24259362599206347,
+        "satisfaction_score": "High",
+        "response_time": 1.8550951480865479
+    },
+    {
+        "persona": "Carlos",
+        "task": "How should I organize my work schedule for the week?",
+        "sentiment_score": 0.1836037594560322,
+        "satisfaction_score": "High",
+        "response_time": 6.167803049087524
+    },
+    {
+        "persona": "Carlos",
+        "task": "What should I do if I feel overwhelmed by all the tasks I need to do?",
+        "sentiment_score": 0.1488743279569892,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.208853006362915
+    },
+    {
+        "persona": "Carlos",
+        "task": "Can you help me organize my to-do list for the day?",
+        "sentiment_score": 0.172527169011544,
+        "satisfaction_score": "High",
+        "response_time": 5.276539087295532
+    },
+    {
+        "persona": "Carlos",
+        "task": "How can I improve my focus when I'm feeling distracted?",
+        "sentiment_score": 0.11431096681096682,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.913250207901001
+    },
+    {
+        "persona": "Carlos",
+        "task": "Can you remind me about my homework assignment?",
+        "sentiment_score": 0.14177248677248677,
+        "satisfaction_score": "Neutral",
+        "response_time": 2.2531561851501465
+    },
+    {
+        "persona": "Carlos",
+        "task": "How do I stop procrastinating and start working on my tasks?",
+        "sentiment_score": 0.041376327682327456,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.243767976760864
+    },
+    {
+        "persona": "Carlos",
+        "task": "Can you give me some tips for staying motivated to finish my project?",
+        "sentiment_score": 0.1630129179331307,
+        "satisfaction_score": "High",
+        "response_time": 3.9460718631744385
+    },
+    {
+        "persona": "Carlos",
+        "task": "What are some ways to manage my anxiety when I feel overwhelmed?",
+        "sentiment_score": 0.18919933634373293,
+        "satisfaction_score": "High",
+        "response_time": 6.101941108703613
+    },
+    {
+        "persona": "Carlos",
+        "task": "Can you help me set reminders for my daily tasks?",
+        "sentiment_score": 0.20710521187641723,
+        "satisfaction_score": "High",
+        "response_time": 3.895787000656128
+    },
+    {
+        "persona": "Carlos",
+        "task": "How do I avoid distractions when I'm studying?",
+        "sentiment_score": 0.11595502468664233,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.531263113021851
+    },
+    {
+        "persona": "Carlos",
+        "task": "Can you suggest ways to stay focused during work?",
+        "sentiment_score": 0.0733172123015873,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.061154842376709
+    },
+    {
+        "persona": "Carlos",
+        "task": "What should I do if I forget something important?",
+        "sentiment_score": 0.2004288274449565,
+        "satisfaction_score": "High",
+        "response_time": 4.072451114654541
+    },
+    {
+        "persona": "Carlos",
+        "task": "Can you help me plan my day more effectively?",
+        "sentiment_score": 0.1807019255789748,
+        "satisfaction_score": "High",
+        "response_time": 6.150223016738892
+    },
+    {
+        "persona": "Carlos",
+        "task": "How do I organize my notes for school?",
+        "sentiment_score": 0.19804322923321133,
+        "satisfaction_score": "High",
+        "response_time": 5.961293935775757
+    },
+    {
+        "persona": "Carlos",
+        "task": "Can you give me a step-by-step plan for completing my homework?",
+        "sentiment_score": 0.19007054143772895,
+        "satisfaction_score": "High",
+        "response_time": 5.317260980606079
+    },
+    {
+        "persona": "Carlos",
+        "task": "What are some tips to help me remember important dates or events?",
+        "sentiment_score": 0.13602887426900584,
+        "satisfaction_score": "Neutral",
+        "response_time": 4.976324796676636
+    },
+    {
+        "persona": "Carlos",
+        "task": "Can you give me a pep talk to get me motivated to study?",
+        "sentiment_score": 0.16214278824955908,
+        "satisfaction_score": "High",
+        "response_time": 3.857034206390381
+    },
+    {
+        "persona": "Carlos",
+        "task": "I have a big presentation tomorrow, and I\u2019m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",
+        "sentiment_score": 0.13217037830439893,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.623631954193115
+    },
+    {
+        "persona": "Carlos",
+        "task": "I\u2019m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don\u2019t miss anything?",
+        "sentiment_score": 0.12676988891611535,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.645469903945923
+    },
+    {
+        "persona": "Carlos",
+        "task": "I\u2019m supposed to study for a science quiz tonight, but I can\u2019t stop scrolling on social media. Can you help me create a distraction-free study routine?",
+        "sentiment_score": 0.13145667989417992,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.372420072555542
+    },
+    {
+        "persona": "Carlos",
+        "task": "My boss emailed me about an important project deadline in two days, but I\u2019m freaking out because I haven\u2019t started. What\u2019s a good strategy to catch up quickly?",
+        "sentiment_score": 0.10179118522408963,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.7215070724487305
+    },
+    {
+        "persona": "Carlos",
+        "task": "I\u2019ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",
+        "sentiment_score": 0.2218894123305888,
+        "satisfaction_score": "High",
+        "response_time": 6.561542272567749
+    },
+    {
+        "persona": "Carlos",
+        "task": "I need to prepare dinner for guests tonight, but I\u2019m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",
+        "sentiment_score": 0.11804381685334064,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.351922988891602
+    },
+    {
+        "persona": "Carlos",
+        "task": "I\u2019ve been asked to join a new extracurricular activity at school, but I\u2019m worried I won\u2019t manage my existing responsibilities. How can I schedule everything without burning out?",
+        "sentiment_score": 0.1368689825657039,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.297677040100098
+    },
+    {
+        "persona": "Carlos",
+        "task": "I\u2019m moving next week and have so many boxes to pack, but I can\u2019t seem to start. Can you suggest a simple system to tackle packing so I don\u2019t forget important items?",
+        "sentiment_score": 0.15772494925037295,
+        "satisfaction_score": "High",
+        "response_time": 5.178534746170044
+    },
+    {
+        "persona": "Carlos",
+        "task": "I have multiple bills to pay this month, and I\u2019m worried I\u2019ll miss due dates. Can you help me create a payment schedule and reminders?",
+        "sentiment_score": 0.15257430577552533,
+        "satisfaction_score": "High",
+        "response_time": 6.517518043518066
+    },
+    {
+        "persona": "Carlos",
+        "task": "My teacher just assigned a group project, and I don\u2019t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",
+        "sentiment_score": 0.13636138167388168,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.149507761001587
+    },
+    {
+        "persona": "Emma",
+        "task": "Can you help me stay focused on my reading for the next 10 minutes?",
+        "sentiment_score": 0.11332465277777778,
+        "satisfaction_score": "Neutral",
+        "response_time": 4.934042692184448
+    },
+    {
+        "persona": "Emma",
+        "task": "What is the best way to break down a complex task into smaller steps?",
+        "sentiment_score": 0.15015938069216755,
+        "satisfaction_score": "High",
+        "response_time": 6.761348009109497
+    },
+    {
+        "persona": "Emma",
+        "task": "Can you remind me about my meeting in 30 minutes?",
+        "sentiment_score": 0.13416666666666666,
+        "satisfaction_score": "Neutral",
+        "response_time": 1.9486181735992432
+    },
+    {
+        "persona": "Emma",
+        "task": "How should I organize my work schedule for the week?",
+        "sentiment_score": 0.1941548563869993,
+        "satisfaction_score": "High",
+        "response_time": 8.44350790977478
+    },
+    {
+        "persona": "Emma",
+        "task": "What should I do if I feel overwhelmed by all the tasks I need to do?",
+        "sentiment_score": 0.19626549754100778,
+        "satisfaction_score": "High",
+        "response_time": 7.207313776016235
+    },
+    {
+        "persona": "Emma",
+        "task": "Can you help me organize my to-do list for the day?",
+        "sentiment_score": 0.21371931524547805,
+        "satisfaction_score": "High",
+        "response_time": 8.166176080703735
+    },
+    {
+        "persona": "Emma",
+        "task": "How can I improve my focus when I'm feeling distracted?",
+        "sentiment_score": 0.13109539270253553,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.6438069343566895
+    },
+    {
+        "persona": "Emma",
+        "task": "Can you remind me about my homework assignment?",
+        "sentiment_score": 0.05060763888888888,
+        "satisfaction_score": "Neutral",
+        "response_time": 2.3021528720855713
+    },
+    {
+        "persona": "Emma",
+        "task": "How do I stop procrastinating and start working on my tasks?",
+        "sentiment_score": 0.10816000019767144,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.323857069015503
+    },
+    {
+        "persona": "Emma",
+        "task": "Can you give me some tips for staying motivated to finish my project?",
+        "sentiment_score": 0.1906007727204661,
+        "satisfaction_score": "High",
+        "response_time": 7.667878866195679
+    },
+    {
+        "persona": "Emma",
+        "task": "What are some ways to manage my anxiety when I feel overwhelmed?",
+        "sentiment_score": 0.17475237815043643,
+        "satisfaction_score": "High",
+        "response_time": 8.563167095184326
+    },
+    {
+        "persona": "Emma",
+        "task": "Can you help me set reminders for my daily tasks?",
+        "sentiment_score": 0.19850772080153528,
+        "satisfaction_score": "High",
+        "response_time": 7.3386430740356445
+    },
+    {
+        "persona": "Emma",
+        "task": "How do I avoid distractions when I'm studying?",
+        "sentiment_score": 0.1416745580808081,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.682831048965454
+    },
+    {
+        "persona": "Emma",
+        "task": "Can you suggest ways to stay focused during work?",
+        "sentiment_score": 0.1760340802987862,
+        "satisfaction_score": "High",
+        "response_time": 6.721321105957031
+    },
+    {
+        "persona": "Emma",
+        "task": "What should I do if I forget something important?",
+        "sentiment_score": 0.09541637911203128,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.91508936882019
+    },
+    {
+        "persona": "Emma",
+        "task": "Can you help me plan my day more effectively?",
+        "sentiment_score": 0.17075892857142858,
+        "satisfaction_score": "High",
+        "response_time": 7.49276328086853
+    },
+    {
+        "persona": "Emma",
+        "task": "How do I organize my notes for school?",
+        "sentiment_score": 0.11204850842227082,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.134644031524658
+    },
+    {
+        "persona": "Emma",
+        "task": "Can you give me a step-by-step plan for completing my homework?",
+        "sentiment_score": 0.18079236239950525,
+        "satisfaction_score": "High",
+        "response_time": 7.146344900131226
+    },
+    {
+        "persona": "Emma",
+        "task": "What are some tips to help me remember important dates or events?",
+        "sentiment_score": 0.19806949806949806,
+        "satisfaction_score": "High",
+        "response_time": 5.54193902015686
+    },
+    {
+        "persona": "Emma",
+        "task": "Can you give me a pep talk to get me motivated to study?",
+        "sentiment_score": 0.16733287847418282,
+        "satisfaction_score": "High",
+        "response_time": 3.9198977947235107
+    },
+    {
+        "persona": "Emma",
+        "task": "I have a big presentation tomorrow, and I\u2019m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",
+        "sentiment_score": 0.1550998384331718,
+        "satisfaction_score": "High",
+        "response_time": 8.916205883026123
+    },
+    {
+        "persona": "Emma",
+        "task": "I\u2019m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don\u2019t miss anything?",
+        "sentiment_score": 0.08479647667147672,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.636062383651733
+    },
+    {
+        "persona": "Emma",
+        "task": "I\u2019m supposed to study for a science quiz tonight, but I can\u2019t stop scrolling on social media. Can you help me create a distraction-free study routine?",
+        "sentiment_score": 0.15689356939356944,
+        "satisfaction_score": "High",
+        "response_time": 9.173211097717285
+    },
+    {
+        "persona": "Emma",
+        "task": "My boss emailed me about an important project deadline in two days, but I\u2019m freaking out because I haven\u2019t started. What\u2019s a good strategy to catch up quickly?",
+        "sentiment_score": 0.12192092886537331,
+        "satisfaction_score": "Neutral",
+        "response_time": 9.95635199546814
+    },
+    {
+        "persona": "Emma",
+        "task": "I\u2019ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",
+        "sentiment_score": 0.21176926248354822,
+        "satisfaction_score": "High",
+        "response_time": 7.979442834854126
+    },
+    {
+        "persona": "Emma",
+        "task": "I need to prepare dinner for guests tonight, but I\u2019m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",
+        "sentiment_score": 0.12758736109251576,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.906173229217529
+    },
+    {
+        "persona": "Emma",
+        "task": "I\u2019ve been asked to join a new extracurricular activity at school, but I\u2019m worried I won\u2019t manage my existing responsibilities. How can I schedule everything without burning out?",
+        "sentiment_score": 0.2224558620391954,
+        "satisfaction_score": "High",
+        "response_time": 9.515768766403198
+    },
+    {
+        "persona": "Emma",
+        "task": "I\u2019m moving next week and have so many boxes to pack, but I can\u2019t seem to start. Can you suggest a simple system to tackle packing so I don\u2019t forget important items?",
+        "sentiment_score": 0.10248622589531683,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.1219823360443115
+    },
+    {
+        "persona": "Emma",
+        "task": "I have multiple bills to pay this month, and I\u2019m worried I\u2019ll miss due dates. Can you help me create a payment schedule and reminders?",
+        "sentiment_score": 0.06781565656565657,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.606259822845459
+    },
+    {
+        "persona": "Emma",
+        "task": "My teacher just assigned a group project, and I don\u2019t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",
+        "sentiment_score": 0.06411475869809204,
+        "satisfaction_score": "Neutral",
+        "response_time": 9.42792010307312
+    },
+    {
+        "persona": "John",
+        "task": "Can you help me stay focused on my reading for the next 10 minutes?",
+        "sentiment_score": 0.12555724417426545,
+        "satisfaction_score": "Neutral",
+        "response_time": 4.612252950668335
+    },
+    {
+        "persona": "John",
+        "task": "What is the best way to break down a complex task into smaller steps?",
+        "sentiment_score": 0.08884420093795097,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.84214973449707
+    },
+    {
+        "persona": "John",
+        "task": "Can you remind me about my meeting in 30 minutes?",
+        "sentiment_score": 0.2087301587301587,
+        "satisfaction_score": "High",
+        "response_time": 0.9671511650085449
+    },
+    {
+        "persona": "John",
+        "task": "How should I organize my work schedule for the week?",
+        "sentiment_score": 0.09307659932659931,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.370255708694458
+    },
+    {
+        "persona": "John",
+        "task": "What should I do if I feel overwhelmed by all the tasks I need to do?",
+        "sentiment_score": 0.11443661160642292,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.263577938079834
+    },
+    {
+        "persona": "John",
+        "task": "Can you help me organize my to-do list for the day?",
+        "sentiment_score": 0.1520138997548636,
+        "satisfaction_score": "High",
+        "response_time": 6.733734130859375
+    },
+    {
+        "persona": "John",
+        "task": "How can I improve my focus when I'm feeling distracted?",
+        "sentiment_score": 0.07671888854117771,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.7318010330200195
+    },
+    {
+        "persona": "John",
+        "task": "Can you remind me about my homework assignment?",
+        "sentiment_score": 0.07148919753086419,
+        "satisfaction_score": "Neutral",
+        "response_time": 2.3626906871795654
+    },
+    {
+        "persona": "John",
+        "task": "How do I stop procrastinating and start working on my tasks?",
+        "sentiment_score": 0.07797728111681601,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.089414119720459
+    },
+    {
+        "persona": "John",
+        "task": "Can you give me some tips for staying motivated to finish my project?",
+        "sentiment_score": 0.04806496056496056,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.166079044342041
+    },
+    {
+        "persona": "John",
+        "task": "What are some ways to manage my anxiety when I feel overwhelmed?",
+        "sentiment_score": 0.12102328398624695,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.901714086532593
+    },
+    {
+        "persona": "John",
+        "task": "Can you help me set reminders for my daily tasks?",
+        "sentiment_score": 0.1606788548752834,
+        "satisfaction_score": "High",
+        "response_time": 5.499556064605713
+    },
+    {
+        "persona": "John",
+        "task": "How do I avoid distractions when I'm studying?",
+        "sentiment_score": 0.10113419566544568,
+        "satisfaction_score": "Neutral",
+        "response_time": 8.838661909103394
+    },
+    {
+        "persona": "John",
+        "task": "Can you suggest ways to stay focused during work?",
+        "sentiment_score": 0.1749691532300228,
+        "satisfaction_score": "High",
+        "response_time": 6.807064056396484
+    },
+    {
+        "persona": "John",
+        "task": "What should I do if I forget something important?",
+        "sentiment_score": 0.20077711640211643,
+        "satisfaction_score": "High",
+        "response_time": 5.12192702293396
+    },
+    {
+        "persona": "John",
+        "task": "Can you help me plan my day more effectively?",
+        "sentiment_score": 0.07724764384920633,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.3953022956848145
+    },
+    {
+        "persona": "John",
+        "task": "How do I organize my notes for school?",
+        "sentiment_score": 0.04835779058340033,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.39441990852356
+    },
+    {
+        "persona": "John",
+        "task": "Can you give me a step-by-step plan for completing my homework?",
+        "sentiment_score": 0.06830357142857142,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.064393997192383
+    },
+    {
+        "persona": "John",
+        "task": "What are some tips to help me remember important dates or events?",
+        "sentiment_score": 0.12145806520806524,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.56604790687561
+    },
+    {
+        "persona": "John",
+        "task": "Can you give me a pep talk to get me motivated to study?",
+        "sentiment_score": 0.244877938216754,
+        "satisfaction_score": "High",
+        "response_time": 3.72355318069458
+    },
+    {
+        "persona": "John",
+        "task": "I have a big presentation tomorrow, and I\u2019m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",
+        "sentiment_score": 0.17759385589441767,
+        "satisfaction_score": "High",
+        "response_time": 8.027047157287598
+    },
+    {
+        "persona": "John",
+        "task": "I\u2019m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don\u2019t miss anything?",
+        "sentiment_score": 0.13218601834673266,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.583956956863403
+    },
+    {
+        "persona": "John",
+        "task": "I\u2019m supposed to study for a science quiz tonight, but I can\u2019t stop scrolling on social media. Can you help me create a distraction-free study routine?",
+        "sentiment_score": 0.11956349206349207,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.936727046966553
+    },
+    {
+        "persona": "John",
+        "task": "My boss emailed me about an important project deadline in two days, but I\u2019m freaking out because I haven\u2019t started. What\u2019s a good strategy to catch up quickly?",
+        "sentiment_score": 0.1183016190159047,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.084815263748169
+    },
+    {
+        "persona": "John",
+        "task": "I\u2019ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",
+        "sentiment_score": 0.13141306330961505,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.104195833206177
+    },
+    {
+        "persona": "John",
+        "task": "I need to prepare dinner for guests tonight, but I\u2019m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",
+        "sentiment_score": 0.005566655566655571,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.986878156661987
+    },
+    {
+        "persona": "John",
+        "task": "I\u2019ve been asked to join a new extracurricular activity at school, but I\u2019m worried I won\u2019t manage my existing responsibilities. How can I schedule everything without burning out?",
+        "sentiment_score": 0.14894547515976092,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.623187065124512
+    },
+    {
+        "persona": "John",
+        "task": "I\u2019m moving next week and have so many boxes to pack, but I can\u2019t seem to start. Can you suggest a simple system to tackle packing so I don\u2019t forget important items?",
+        "sentiment_score": 0.10851267779839209,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.42251992225647
+    },
+    {
+        "persona": "John",
+        "task": "I have multiple bills to pay this month, and I\u2019m worried I\u2019ll miss due dates. Can you help me create a payment schedule and reminders?",
+        "sentiment_score": 0.06278447121820616,
+        "satisfaction_score": "Neutral",
+        "response_time": 8.523696184158325
+    },
+    {
+        "persona": "John",
+        "task": "My teacher just assigned a group project, and I don\u2019t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",
+        "sentiment_score": 0.1413265306122449,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.891371011734009
+    },
+    {
+        "persona": "Maya",
+        "task": "Can you help me stay focused on my reading for the next 10 minutes?",
+        "sentiment_score": 0.12273391812865499,
+        "satisfaction_score": "Neutral",
+        "response_time": 4.684024810791016
+    },
+    {
+        "persona": "Maya",
+        "task": "What is the best way to break down a complex task into smaller steps?",
+        "sentiment_score": 0.06148606601731603,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.17267918586731
+    },
+    {
+        "persona": "Maya",
+        "task": "Can you remind me about my meeting in 30 minutes?",
+        "sentiment_score": 0.08246114417989418,
+        "satisfaction_score": "Neutral",
+        "response_time": 1.2347791194915771
+    },
+    {
+        "persona": "Maya",
+        "task": "How should I organize my work schedule for the week?",
+        "sentiment_score": 0.11152564748469918,
+        "satisfaction_score": "Neutral",
+        "response_time": 10.246982336044312
+    },
+    {
+        "persona": "Maya",
+        "task": "What should I do if I feel overwhelmed by all the tasks I need to do?",
+        "sentiment_score": 0.09722104586235018,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.32440185546875
+    },
+    {
+        "persona": "Maya",
+        "task": "Can you help me organize my to-do list for the day?",
+        "sentiment_score": 0.14678502053502054,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.4256157875061035
+    },
+    {
+        "persona": "Maya",
+        "task": "How can I improve my focus when I'm feeling distracted?",
+        "sentiment_score": 0.09119428294573645,
+        "satisfaction_score": "Neutral",
+        "response_time": 8.340001821517944
+    },
+    {
+        "persona": "Maya",
+        "task": "Can you remind me about my homework assignment?",
+        "sentiment_score": 0.18189102564102566,
+        "satisfaction_score": "High",
+        "response_time": 2.4585201740264893
+    },
+    {
+        "persona": "Maya",
+        "task": "How do I stop procrastinating and start working on my tasks?",
+        "sentiment_score": 0.07807096387604862,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.34846305847168
+    },
+    {
+        "persona": "Maya",
+        "task": "Can you give me some tips for staying motivated to finish my project?",
+        "sentiment_score": 0.14628091546696195,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.554726839065552
+    },
+    {
+        "persona": "Maya",
+        "task": "What are some ways to manage my anxiety when I feel overwhelmed?",
+        "sentiment_score": 0.15042255892255893,
+        "satisfaction_score": "High",
+        "response_time": 7.050727128982544
+    },
+    {
+        "persona": "Maya",
+        "task": "Can you help me set reminders for my daily tasks?",
+        "sentiment_score": 0.18034825870646765,
+        "satisfaction_score": "High",
+        "response_time": 6.964541912078857
+    },
+    {
+        "persona": "Maya",
+        "task": "How do I avoid distractions when I'm studying?",
+        "sentiment_score": 0.09314104187774398,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.017262935638428
+    },
+    {
+        "persona": "Maya",
+        "task": "Can you suggest ways to stay focused during work?",
+        "sentiment_score": 0.10945657877476056,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.957178115844727
+    },
+    {
+        "persona": "Maya",
+        "task": "What should I do if I forget something important?",
+        "sentiment_score": 0.16706194044903724,
+        "satisfaction_score": "High",
+        "response_time": 7.49369215965271
+    },
+    {
+        "persona": "Maya",
+        "task": "Can you help me plan my day more effectively?",
+        "sentiment_score": 0.1666870642337932,
+        "satisfaction_score": "High",
+        "response_time": 10.560681343078613
+    },
+    {
+        "persona": "Maya",
+        "task": "How do I organize my notes for school?",
+        "sentiment_score": 0.11517182924949916,
+        "satisfaction_score": "Neutral",
+        "response_time": 9.294955968856812
+    },
+    {
+        "persona": "Maya",
+        "task": "Can you give me a step-by-step plan for completing my homework?",
+        "sentiment_score": 0.1646438383045526,
+        "satisfaction_score": "High",
+        "response_time": 6.6854400634765625
+    },
+    {
+        "persona": "Maya",
+        "task": "What are some tips to help me remember important dates or events?",
+        "sentiment_score": 0.1578965016465017,
+        "satisfaction_score": "High",
+        "response_time": 5.598591089248657
+    },
+    {
+        "persona": "Maya",
+        "task": "Can you give me a pep talk to get me motivated to study?",
+        "sentiment_score": 0.17243398962148965,
+        "satisfaction_score": "High",
+        "response_time": 3.339440107345581
+    },
+    {
+        "persona": "Maya",
+        "task": "I have a big presentation tomorrow, and I\u2019m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",
+        "sentiment_score": 0.10121474889993408,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.675721168518066
+    },
+    {
+        "persona": "Maya",
+        "task": "I\u2019m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don\u2019t miss anything?",
+        "sentiment_score": 0.1223676987263944,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.3046369552612305
+    },
+    {
+        "persona": "Maya",
+        "task": "I\u2019m supposed to study for a science quiz tonight, but I can\u2019t stop scrolling on social media. Can you help me create a distraction-free study routine?",
+        "sentiment_score": 0.1294888540578196,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.282968044281006
+    },
+    {
+        "persona": "Maya",
+        "task": "My boss emailed me about an important project deadline in two days, but I\u2019m freaking out because I haven\u2019t started. What\u2019s a good strategy to catch up quickly?",
+        "sentiment_score": 0.12455609866324156,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.746788024902344
+    },
+    {
+        "persona": "Maya",
+        "task": "I\u2019ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",
+        "sentiment_score": 0.10928724053724051,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.9324119091033936
+    },
+    {
+        "persona": "Maya",
+        "task": "I need to prepare dinner for guests tonight, but I\u2019m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",
+        "sentiment_score": 0.12629779722667306,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.137950897216797
+    },
+    {
+        "persona": "Maya",
+        "task": "I\u2019ve been asked to join a new extracurricular activity at school, but I\u2019m worried I won\u2019t manage my existing responsibilities. How can I schedule everything without burning out?",
+        "sentiment_score": 0.12794080040915484,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.166867017745972
+    },
+    {
+        "persona": "Maya",
+        "task": "I\u2019m moving next week and have so many boxes to pack, but I can\u2019t seem to start. Can you suggest a simple system to tackle packing so I don\u2019t forget important items?",
+        "sentiment_score": 0.11241577642787319,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.138027906417847
+    },
+    {
+        "persona": "Maya",
+        "task": "I have multiple bills to pay this month, and I\u2019m worried I\u2019ll miss due dates. Can you help me create a payment schedule and reminders?",
+        "sentiment_score": 0.11955692488262913,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.894953966140747
+    },
+    {
+        "persona": "Maya",
+        "task": "My teacher just assigned a group project, and I don\u2019t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",
+        "sentiment_score": 0.07020446278258778,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.483421087265015
+    },
+    {
+        "persona": "Liam",
+        "task": "Can you help me stay focused on my reading for the next 10 minutes?",
+        "sentiment_score": 0.140950176366843,
+        "satisfaction_score": "Neutral",
+        "response_time": 2.0206820964813232
+    },
+    {
+        "persona": "Liam",
+        "task": "What is the best way to break down a complex task into smaller steps?",
+        "sentiment_score": 0.1374482084500467,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.086014032363892
+    },
+    {
+        "persona": "Liam",
+        "task": "Can you remind me about my meeting in 30 minutes?",
+        "sentiment_score": 0.1827876984126984,
+        "satisfaction_score": "High",
+        "response_time": 0.9279327392578125
+    },
+    {
+        "persona": "Liam",
+        "task": "How should I organize my work schedule for the week?",
+        "sentiment_score": 0.08624338624338623,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.85697603225708
+    },
+    {
+        "persona": "Liam",
+        "task": "What should I do if I feel overwhelmed by all the tasks I need to do?",
+        "sentiment_score": 0.11259920634920632,
+        "satisfaction_score": "Neutral",
+        "response_time": 4.655910968780518
+    },
+    {
+        "persona": "Liam",
+        "task": "Can you help me organize my to-do list for the day?",
+        "sentiment_score": 0.17640580484330493,
+        "satisfaction_score": "High",
+        "response_time": 5.704225778579712
+    },
+    {
+        "persona": "Liam",
+        "task": "How can I improve my focus when I'm feeling distracted?",
+        "sentiment_score": 0.1176845238095238,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.000395059585571
+    },
+    {
+        "persona": "Liam",
+        "task": "Can you remind me about my homework assignment?",
+        "sentiment_score": 0.24333964646464645,
+        "satisfaction_score": "High",
+        "response_time": 1.2527880668640137
+    },
+    {
+        "persona": "Liam",
+        "task": "How do I stop procrastinating and start working on my tasks?",
+        "sentiment_score": 0.21211662631154157,
+        "satisfaction_score": "High",
+        "response_time": 5.37021803855896
+    },
+    {
+        "persona": "Liam",
+        "task": "Can you give me some tips for staying motivated to finish my project?",
+        "sentiment_score": 0.10129071593915344,
+        "satisfaction_score": "Neutral",
+        "response_time": 3.7352941036224365
+    },
+    {
+        "persona": "Liam",
+        "task": "What are some ways to manage my anxiety when I feel overwhelmed?",
+        "sentiment_score": 0.03646825396825396,
+        "satisfaction_score": "Neutral",
+        "response_time": 4.961982250213623
+    },
+    {
+        "persona": "Liam",
+        "task": "Can you help me set reminders for my daily tasks?",
+        "sentiment_score": 0.19094065656565656,
+        "satisfaction_score": "High",
+        "response_time": 3.6246519088745117
+    },
+    {
+        "persona": "Liam",
+        "task": "How do I avoid distractions when I'm studying?",
+        "sentiment_score": 0.09402777777777781,
+        "satisfaction_score": "Neutral",
+        "response_time": 4.771106004714966
+    },
+    {
+        "persona": "Liam",
+        "task": "Can you suggest ways to stay focused during work?",
+        "sentiment_score": 0.23814037698412702,
+        "satisfaction_score": "High",
+        "response_time": 4.625071287155151
+    },
+    {
+        "persona": "Liam",
+        "task": "What should I do if I forget something important?",
+        "sentiment_score": 0.21606079931972788,
+        "satisfaction_score": "High",
+        "response_time": 3.281749963760376
+    },
+    {
+        "persona": "Liam",
+        "task": "Can you help me plan my day more effectively?",
+        "sentiment_score": 0.07134350633528264,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.540548086166382
+    },
+    {
+        "persona": "Liam",
+        "task": "How do I organize my notes for school?",
+        "sentiment_score": 0.1260066526610644,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.000655889511108
+    },
+    {
+        "persona": "Liam",
+        "task": "Can you give me a step-by-step plan for completing my homework?",
+        "sentiment_score": 0.1947010869565218,
+        "satisfaction_score": "High",
+        "response_time": 5.583108186721802
+    },
+    {
+        "persona": "Liam",
+        "task": "What are some tips to help me remember important dates or events?",
+        "sentiment_score": 0.15256982600732594,
+        "satisfaction_score": "High",
+        "response_time": 4.446596145629883
+    },
+    {
+        "persona": "Liam",
+        "task": "Can you give me a pep talk to get me motivated to study?",
+        "sentiment_score": 0.11702536730945821,
+        "satisfaction_score": "Neutral",
+        "response_time": 3.184422016143799
+    },
+    {
+        "persona": "Liam",
+        "task": "I have a big presentation tomorrow, and I\u2019m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",
+        "sentiment_score": 0.2019755003450656,
+        "satisfaction_score": "High",
+        "response_time": 5.504091024398804
+    },
+    {
+        "persona": "Liam",
+        "task": "I\u2019m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don\u2019t miss anything?",
+        "sentiment_score": 0.04321208305583306,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.065508842468262
+    },
+    {
+        "persona": "Liam",
+        "task": "I\u2019m supposed to study for a science quiz tonight, but I can\u2019t stop scrolling on social media. Can you help me create a distraction-free study routine?",
+        "sentiment_score": 0.17683704780361761,
+        "satisfaction_score": "High",
+        "response_time": 6.183660984039307
+    },
+    {
+        "persona": "Liam",
+        "task": "My boss emailed me about an important project deadline in two days, but I\u2019m freaking out because I haven\u2019t started. What\u2019s a good strategy to catch up quickly?",
+        "sentiment_score": 0.20915397408963582,
+        "satisfaction_score": "High",
+        "response_time": 5.234750986099243
+    },
+    {
+        "persona": "Liam",
+        "task": "I\u2019ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",
+        "sentiment_score": 0.22705057651991614,
+        "satisfaction_score": "High",
+        "response_time": 4.432386159896851
+    },
+    {
+        "persona": "Liam",
+        "task": "I need to prepare dinner for guests tonight, but I\u2019m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",
+        "sentiment_score": 0.3538871173469388,
+        "satisfaction_score": "High",
+        "response_time": 7.467833042144775
+    },
+    {
+        "persona": "Liam",
+        "task": "I\u2019ve been asked to join a new extracurricular activity at school, but I\u2019m worried I won\u2019t manage my existing responsibilities. How can I schedule everything without burning out?",
+        "sentiment_score": 0.18487491914216048,
+        "satisfaction_score": "High",
+        "response_time": 4.701404094696045
+    },
+    {
+        "persona": "Liam",
+        "task": "I\u2019m moving next week and have so many boxes to pack, but I can\u2019t seem to start. Can you suggest a simple system to tackle packing so I don\u2019t forget important items?",
+        "sentiment_score": 0.15957505897982088,
+        "satisfaction_score": "High",
+        "response_time": 6.097252130508423
+    },
+    {
+        "persona": "Liam",
+        "task": "I have multiple bills to pay this month, and I\u2019m worried I\u2019ll miss due dates. Can you help me create a payment schedule and reminders?",
+        "sentiment_score": 0.017669064153439152,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.203131914138794
+    },
+    {
+        "persona": "Liam",
+        "task": "My teacher just assigned a group project, and I don\u2019t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",
+        "sentiment_score": 0.10300925925925924,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.275543212890625
+    },
+    {
+        "persona": "Sarah",
+        "task": "Can you help me stay focused on my reading for the next 10 minutes?",
+        "sentiment_score": 0.15096371882086165,
+        "satisfaction_score": "High",
+        "response_time": 4.22344183921814
+    },
+    {
+        "persona": "Sarah",
+        "task": "What is the best way to break down a complex task into smaller steps?",
+        "sentiment_score": 0.13965314520870076,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.351029872894287
+    },
+    {
+        "persona": "Sarah",
+        "task": "Can you remind me about my meeting in 30 minutes?",
+        "sentiment_score": 0.2571759259259259,
+        "satisfaction_score": "High",
+        "response_time": 1.3358650207519531
+    },
+    {
+        "persona": "Sarah",
+        "task": "How should I organize my work schedule for the week?",
+        "sentiment_score": 0.12042024642024644,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.218797206878662
+    },
+    {
+        "persona": "Sarah",
+        "task": "What should I do if I feel overwhelmed by all the tasks I need to do?",
+        "sentiment_score": 0.08121146530237441,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.676537752151489
+    },
+    {
+        "persona": "Sarah",
+        "task": "Can you help me organize my to-do list for the day?",
+        "sentiment_score": 0.14971038707880813,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.287564992904663
+    },
+    {
+        "persona": "Sarah",
+        "task": "How can I improve my focus when I'm feeling distracted?",
+        "sentiment_score": 0.13715610047846888,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.132209300994873
+    },
+    {
+        "persona": "Sarah",
+        "task": "Can you remind me about my homework assignment?",
+        "sentiment_score": 0.24640151515151515,
+        "satisfaction_score": "High",
+        "response_time": 2.1570780277252197
+    },
+    {
+        "persona": "Sarah",
+        "task": "How do I stop procrastinating and start working on my tasks?",
+        "sentiment_score": 0.0560536327933235,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.196020841598511
+    },
+    {
+        "persona": "Sarah",
+        "task": "Can you give me some tips for staying motivated to finish my project?",
+        "sentiment_score": 0.14295935545935548,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.801419019699097
+    },
+    {
+        "persona": "Sarah",
+        "task": "What are some ways to manage my anxiety when I feel overwhelmed?",
+        "sentiment_score": 0.09989729225023342,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.907179117202759
+    },
+    {
+        "persona": "Sarah",
+        "task": "Can you help me set reminders for my daily tasks?",
+        "sentiment_score": 0.1848333333333333,
+        "satisfaction_score": "High",
+        "response_time": 3.2286558151245117
+    },
+    {
+        "persona": "Sarah",
+        "task": "How do I avoid distractions when I'm studying?",
+        "sentiment_score": 0.15400313971742546,
+        "satisfaction_score": "High",
+        "response_time": 6.7169508934021
+    },
+    {
+        "persona": "Sarah",
+        "task": "Can you suggest ways to stay focused during work?",
+        "sentiment_score": 0.12795815295815297,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.012808084487915
+    },
+    {
+        "persona": "Sarah",
+        "task": "What should I do if I forget something important?",
+        "sentiment_score": 0.12229582693292368,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.922574043273926
+    },
+    {
+        "persona": "Sarah",
+        "task": "Can you help me plan my day more effectively?",
+        "sentiment_score": 0.16754333946114766,
+        "satisfaction_score": "High",
+        "response_time": 7.271103143692017
+    },
+    {
+        "persona": "Sarah",
+        "task": "How do I organize my notes for school?",
+        "sentiment_score": 0.17277225236085994,
+        "satisfaction_score": "High",
+        "response_time": 7.372322082519531
+    },
+    {
+        "persona": "Sarah",
+        "task": "Can you give me a step-by-step plan for completing my homework?",
+        "sentiment_score": 0.0934768230963883,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.80367636680603
+    },
+    {
+        "persona": "Sarah",
+        "task": "What are some tips to help me remember important dates or events?",
+        "sentiment_score": 0.12867876658860267,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.671869993209839
+    },
+    {
+        "persona": "Sarah",
+        "task": "Can you give me a pep talk to get me motivated to study?",
+        "sentiment_score": 0.26498822814612283,
+        "satisfaction_score": "High",
+        "response_time": 3.8612639904022217
+    },
+    {
+        "persona": "Sarah",
+        "task": "I have a big presentation tomorrow, and I\u2019m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",
+        "sentiment_score": 0.1730028521825397,
+        "satisfaction_score": "High",
+        "response_time": 6.765777826309204
+    },
+    {
+        "persona": "Sarah",
+        "task": "I\u2019m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don\u2019t miss anything?",
+        "sentiment_score": 0.1179112554112554,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.901852130889893
+    },
+    {
+        "persona": "Sarah",
+        "task": "I\u2019m supposed to study for a science quiz tonight, but I can\u2019t stop scrolling on social media. Can you help me create a distraction-free study routine?",
+        "sentiment_score": 0.17451556380127808,
+        "satisfaction_score": "High",
+        "response_time": 7.067001819610596
+    },
+    {
+        "persona": "Sarah",
+        "task": "My boss emailed me about an important project deadline in two days, but I\u2019m freaking out because I haven\u2019t started. What\u2019s a good strategy to catch up quickly?",
+        "sentiment_score": 0.1164750957854406,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.194509029388428
+    },
+    {
+        "persona": "Sarah",
+        "task": "I\u2019ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",
+        "sentiment_score": 0.16585825027685494,
+        "satisfaction_score": "High",
+        "response_time": 6.87012505531311
+    },
+    {
+        "persona": "Sarah",
+        "task": "I need to prepare dinner for guests tonight, but I\u2019m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",
+        "sentiment_score": 0.13972763347763345,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.5329999923706055
+    },
+    {
+        "persona": "Sarah",
+        "task": "I\u2019ve been asked to join a new extracurricular activity at school, but I\u2019m worried I won\u2019t manage my existing responsibilities. How can I schedule everything without burning out?",
+        "sentiment_score": 0.09030455060812206,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.649505853652954
+    },
+    {
+        "persona": "Sarah",
+        "task": "I\u2019m moving next week and have so many boxes to pack, but I can\u2019t seem to start. Can you suggest a simple system to tackle packing so I don\u2019t forget important items?",
+        "sentiment_score": 0.0757905669599218,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.378393173217773
+    },
+    {
+        "persona": "Sarah",
+        "task": "I have multiple bills to pay this month, and I\u2019m worried I\u2019ll miss due dates. Can you help me create a payment schedule and reminders?",
+        "sentiment_score": 0.13338615023474176,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.169961214065552
+    },
+    {
+        "persona": "Sarah",
+        "task": "My teacher just assigned a group project, and I don\u2019t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",
+        "sentiment_score": 0.16197999155316228,
+        "satisfaction_score": "High",
+        "response_time": 6.103430986404419
+    },
+    {
+        "persona": "Ethan",
+        "task": "Can you help me stay focused on my reading for the next 10 minutes?",
+        "sentiment_score": 0.15367913832199548,
+        "satisfaction_score": "High",
+        "response_time": 3.1141161918640137
+    },
+    {
+        "persona": "Ethan",
+        "task": "What is the best way to break down a complex task into smaller steps?",
+        "sentiment_score": 0.10810027078545599,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.3174121379852295
+    },
+    {
+        "persona": "Ethan",
+        "task": "Can you remind me about my meeting in 30 minutes?",
+        "sentiment_score": 0.11678819444444444,
+        "satisfaction_score": "Neutral",
+        "response_time": 1.1591968536376953
+    },
+    {
+        "persona": "Ethan",
+        "task": "How should I organize my work schedule for the week?",
+        "sentiment_score": 0.13495277072863282,
+        "satisfaction_score": "Neutral",
+        "response_time": 8.2464120388031
+    },
+    {
+        "persona": "Ethan",
+        "task": "What should I do if I feel overwhelmed by all the tasks I need to do?",
+        "sentiment_score": 0.13756645401382242,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.446062088012695
+    },
+    {
+        "persona": "Ethan",
+        "task": "Can you help me organize my to-do list for the day?",
+        "sentiment_score": 0.13957936243650526,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.4551591873168945
+    },
+    {
+        "persona": "Ethan",
+        "task": "How can I improve my focus when I'm feeling distracted?",
+        "sentiment_score": 0.11492583643746436,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.828526973724365
+    },
+    {
+        "persona": "Ethan",
+        "task": "Can you remind me about my homework assignment?",
+        "sentiment_score": -0.011413043478260882,
+        "satisfaction_score": "Neutral",
+        "response_time": 1.9407706260681152
+    },
+    {
+        "persona": "Ethan",
+        "task": "How do I stop procrastinating and start working on my tasks?",
+        "sentiment_score": 0.22893469579516096,
+        "satisfaction_score": "High",
+        "response_time": 6.572736024856567
+    },
+    {
+        "persona": "Ethan",
+        "task": "Can you give me some tips for staying motivated to finish my project?",
+        "sentiment_score": 0.11578072828072829,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.201722145080566
+    },
+    {
+        "persona": "Ethan",
+        "task": "What are some ways to manage my anxiety when I feel overwhelmed?",
+        "sentiment_score": 0.1643718671679198,
+        "satisfaction_score": "High",
+        "response_time": 7.116911172866821
+    },
+    {
+        "persona": "Ethan",
+        "task": "Can you help me set reminders for my daily tasks?",
+        "sentiment_score": 0.23199094376042423,
+        "satisfaction_score": "High",
+        "response_time": 7.0247979164123535
+    },
+    {
+        "persona": "Ethan",
+        "task": "How do I avoid distractions when I'm studying?",
+        "sentiment_score": 0.145435871998372,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.33171820640564
+    },
+    {
+        "persona": "Ethan",
+        "task": "Can you suggest ways to stay focused during work?",
+        "sentiment_score": 0.07062572843822842,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.983384847640991
+    },
+    {
+        "persona": "Ethan",
+        "task": "What should I do if I forget something important?",
+        "sentiment_score": 0.11569575060954371,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.102799892425537
+    },
+    {
+        "persona": "Ethan",
+        "task": "Can you help me plan my day more effectively?",
+        "sentiment_score": 0.13557095186559479,
+        "satisfaction_score": "Neutral",
+        "response_time": 8.40590500831604
+    },
+    {
+        "persona": "Ethan",
+        "task": "How do I organize my notes for school?",
+        "sentiment_score": 0.1291328710971568,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.384642124176025
+    },
+    {
+        "persona": "Ethan",
+        "task": "Can you give me a step-by-step plan for completing my homework?",
+        "sentiment_score": 0.1292030609508486,
+        "satisfaction_score": "Neutral",
+        "response_time": 9.257681369781494
+    },
+    {
+        "persona": "Ethan",
+        "task": "What are some tips to help me remember important dates or events?",
+        "sentiment_score": 0.14945735322241346,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.013476848602295
+    },
+    {
+        "persona": "Ethan",
+        "task": "Can you give me a pep talk to get me motivated to study?",
+        "sentiment_score": 0.15286894036894033,
+        "satisfaction_score": "High",
+        "response_time": 3.2726590633392334
+    },
+    {
+        "persona": "Ethan",
+        "task": "I have a big presentation tomorrow, and I\u2019m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",
+        "sentiment_score": 0.09889133176534746,
+        "satisfaction_score": "Neutral",
+        "response_time": 9.34345293045044
+    },
+    {
+        "persona": "Ethan",
+        "task": "I\u2019m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don\u2019t miss anything?",
+        "sentiment_score": 0.1403333333333333,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.7264018058776855
+    },
+    {
+        "persona": "Ethan",
+        "task": "I\u2019m supposed to study for a science quiz tonight, but I can\u2019t stop scrolling on social media. Can you help me create a distraction-free study routine?",
+        "sentiment_score": 0.15679924242424242,
+        "satisfaction_score": "High",
+        "response_time": 6.621210813522339
+    },
+    {
+        "persona": "Ethan",
+        "task": "My boss emailed me about an important project deadline in two days, but I\u2019m freaking out because I haven\u2019t started. What\u2019s a good strategy to catch up quickly?",
+        "sentiment_score": 0.10361980191525647,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.733666896820068
+    },
+    {
+        "persona": "Ethan",
+        "task": "I\u2019ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",
+        "sentiment_score": 0.17932554507896972,
+        "satisfaction_score": "High",
+        "response_time": 6.183192729949951
+    },
+    {
+        "persona": "Ethan",
+        "task": "I need to prepare dinner for guests tonight, but I\u2019m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",
+        "sentiment_score": 0.10183518081245355,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.70105504989624
+    },
+    {
+        "persona": "Ethan",
+        "task": "I\u2019ve been asked to join a new extracurricular activity at school, but I\u2019m worried I won\u2019t manage my existing responsibilities. How can I schedule everything without burning out?",
+        "sentiment_score": 0.14132972582972583,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.571459054946899
+    },
+    {
+        "persona": "Ethan",
+        "task": "I\u2019m moving next week and have so many boxes to pack, but I can\u2019t seem to start. Can you suggest a simple system to tackle packing so I don\u2019t forget important items?",
+        "sentiment_score": 0.15925183757215008,
+        "satisfaction_score": "High",
+        "response_time": 6.136965274810791
+    },
+    {
+        "persona": "Ethan",
+        "task": "I have multiple bills to pay this month, and I\u2019m worried I\u2019ll miss due dates. Can you help me create a payment schedule and reminders?",
+        "sentiment_score": 0.07359851347946585,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.672724962234497
+    },
+    {
+        "persona": "Ethan",
+        "task": "My teacher just assigned a group project, and I don\u2019t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",
+        "sentiment_score": 0.11579576428061279,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.557152032852173
+    },
+    {
+        "persona": "Olivia",
+        "task": "Can you help me stay focused on my reading for the next 10 minutes?",
+        "sentiment_score": 0.10852672666288737,
+        "satisfaction_score": "Neutral",
+        "response_time": 3.471327066421509
+    },
+    {
+        "persona": "Olivia",
+        "task": "What is the best way to break down a complex task into smaller steps?",
+        "sentiment_score": 0.11840964590964591,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.307304859161377
+    },
+    {
+        "persona": "Olivia",
+        "task": "Can you remind me about my meeting in 30 minutes?",
+        "sentiment_score": 0.3364583333333333,
+        "satisfaction_score": "High",
+        "response_time": 0.8794112205505371
+    },
+    {
+        "persona": "Olivia",
+        "task": "How should I organize my work schedule for the week?",
+        "sentiment_score": 0.14671207415772633,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.776648044586182
+    },
+    {
+        "persona": "Olivia",
+        "task": "What should I do if I feel overwhelmed by all the tasks I need to do?",
+        "sentiment_score": 0.06868427579365079,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.5442140102386475
+    },
+    {
+        "persona": "Olivia",
+        "task": "Can you help me organize my to-do list for the day?",
+        "sentiment_score": 0.10547776875901875,
+        "satisfaction_score": "Neutral",
+        "response_time": 4.495187997817993
+    },
+    {
+        "persona": "Olivia",
+        "task": "How can I improve my focus when I'm feeling distracted?",
+        "sentiment_score": 0.061807702879131454,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.28542685508728
+    },
+    {
+        "persona": "Olivia",
+        "task": "Can you remind me about my homework assignment?",
+        "sentiment_score": 0.2535493827160493,
+        "satisfaction_score": "High",
+        "response_time": 1.313951015472412
+    },
+    {
+        "persona": "Olivia",
+        "task": "How do I stop procrastinating and start working on my tasks?",
+        "sentiment_score": 0.059797343179696115,
+        "satisfaction_score": "Neutral",
+        "response_time": 7.43373703956604
+    },
+    {
+        "persona": "Olivia",
+        "task": "Can you give me some tips for staying motivated to finish my project?",
+        "sentiment_score": 0.12296481092436974,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.519357919692993
+    },
+    {
+        "persona": "Olivia",
+        "task": "What are some ways to manage my anxiety when I feel overwhelmed?",
+        "sentiment_score": 0.10121882086167801,
+        "satisfaction_score": "Neutral",
+        "response_time": 4.5065531730651855
+    },
+    {
+        "persona": "Olivia",
+        "task": "Can you help me set reminders for my daily tasks?",
+        "sentiment_score": 0.1346326164874552,
+        "satisfaction_score": "Neutral",
+        "response_time": 4.931325197219849
+    },
+    {
+        "persona": "Olivia",
+        "task": "How do I avoid distractions when I'm studying?",
+        "sentiment_score": 0.09289456279587856,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.938767910003662
+    },
+    {
+        "persona": "Olivia",
+        "task": "Can you suggest ways to stay focused during work?",
+        "sentiment_score": 0.10481663223140497,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.358795881271362
+    },
+    {
+        "persona": "Olivia",
+        "task": "What should I do if I forget something important?",
+        "sentiment_score": 0.11211926211926211,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.111274003982544
+    },
+    {
+        "persona": "Olivia",
+        "task": "Can you help me plan my day more effectively?",
+        "sentiment_score": 0.12405692729766805,
+        "satisfaction_score": "Neutral",
+        "response_time": 8.820523738861084
+    },
+    {
+        "persona": "Olivia",
+        "task": "How do I organize my notes for school?",
+        "sentiment_score": 0.1512400793650794,
+        "satisfaction_score": "High",
+        "response_time": 8.492067098617554
+    },
+    {
+        "persona": "Olivia",
+        "task": "Can you give me a step-by-step plan for completing my homework?",
+        "sentiment_score": 0.11514910130718957,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.706459999084473
+    },
+    {
+        "persona": "Olivia",
+        "task": "What are some tips to help me remember important dates or events?",
+        "sentiment_score": 0.12213338071547025,
+        "satisfaction_score": "Neutral",
+        "response_time": 4.2987799644470215
+    },
+    {
+        "persona": "Olivia",
+        "task": "Can you give me a pep talk to get me motivated to study?",
+        "sentiment_score": 0.11468704906204907,
+        "satisfaction_score": "Neutral",
+        "response_time": 3.5665500164031982
+    },
+    {
+        "persona": "Olivia",
+        "task": "I have a big presentation tomorrow, and I\u2019m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",
+        "sentiment_score": 0.16754875948424333,
+        "satisfaction_score": "High",
+        "response_time": 8.114940881729126
+    },
+    {
+        "persona": "Olivia",
+        "task": "I\u2019m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don\u2019t miss anything?",
+        "sentiment_score": 0.13110269360269358,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.1980578899383545
+    },
+    {
+        "persona": "Olivia",
+        "task": "I\u2019m supposed to study for a science quiz tonight, but I can\u2019t stop scrolling on social media. Can you help me create a distraction-free study routine?",
+        "sentiment_score": 0.19016999260901699,
+        "satisfaction_score": "High",
+        "response_time": 6.599638938903809
+    },
+    {
+        "persona": "Olivia",
+        "task": "My boss emailed me about an important project deadline in two days, but I\u2019m freaking out because I haven\u2019t started. What\u2019s a good strategy to catch up quickly?",
+        "sentiment_score": 0.12217787114845938,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.466832876205444
+    },
+    {
+        "persona": "Olivia",
+        "task": "I\u2019ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",
+        "sentiment_score": 0.12520018952854778,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.648355007171631
+    },
+    {
+        "persona": "Olivia",
+        "task": "I need to prepare dinner for guests tonight, but I\u2019m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",
+        "sentiment_score": 0.16221264367816088,
+        "satisfaction_score": "High",
+        "response_time": 6.019766092300415
+    },
+    {
+        "persona": "Olivia",
+        "task": "I\u2019ve been asked to join a new extracurricular activity at school, but I\u2019m worried I won\u2019t manage my existing responsibilities. How can I schedule everything without burning out?",
+        "sentiment_score": 0.16621602580426115,
+        "satisfaction_score": "High",
+        "response_time": 6.416661024093628
+    },
+    {
+        "persona": "Olivia",
+        "task": "I\u2019m moving next week and have so many boxes to pack, but I can\u2019t seem to start. Can you suggest a simple system to tackle packing so I don\u2019t forget important items?",
+        "sentiment_score": 0.1451561065197429,
+        "satisfaction_score": "Neutral",
+        "response_time": 5.5283591747283936
+    },
+    {
+        "persona": "Olivia",
+        "task": "I have multiple bills to pay this month, and I\u2019m worried I\u2019ll miss due dates. Can you help me create a payment schedule and reminders?",
+        "sentiment_score": 0.11452703766691862,
+        "satisfaction_score": "Neutral",
+        "response_time": 6.542304992675781
+    },
+    {
+        "persona": "Olivia",
+        "task": "My teacher just assigned a group project, and I don\u2019t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",
+        "sentiment_score": 0.1595486111111111,
+        "satisfaction_score": "High",
+        "response_time": 6.975922107696533
+    }
+]

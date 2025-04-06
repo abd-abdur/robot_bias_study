@@ -1,0 +1,301 @@
+persona,task,sentiment_score,satisfaction_score,response_time
+Alex,Can you help me stay focused on my reading for the next 10 minutes?,0.08825354609929079,Neutral,5.626344203948975
+Alex,What is the best way to break down a complex task into smaller steps?,0.12049703383036717,Neutral,8.255343198776245
+Alex,Can you remind me about my meeting in 30 minutes?,0.275,High,1.3204302787780762
+Alex,How should I organize my work schedule for the week?,0.18181216931216934,High,8.082807064056396
+Alex,What should I do if I feel overwhelmed by all the tasks I need to do?,0.09183409491742825,Neutral,7.921926975250244
+Alex,Can you help me organize my to-do list for the day?,0.12953889544798636,Neutral,6.371955871582031
+Alex,How can I improve my focus when I'm feeling distracted?,0.12875229125229126,Neutral,6.134052038192749
+Alex,Can you remind me about my homework assignment?,0.19604468599033817,High,2.1269681453704834
+Alex,How do I stop procrastinating and start working on my tasks?,0.06001102292768959,Neutral,7.891034841537476
+Alex,Can you give me some tips for staying motivated to finish my project?,0.1116485803985804,Neutral,6.611227989196777
+Alex,What are some ways to manage my anxiety when I feel overwhelmed?,0.15192962231005716,High,7.624817132949829
+Alex,Can you help me set reminders for my daily tasks?,0.14426587301587301,Neutral,6.360256671905518
+Alex,How do I avoid distractions when I'm studying?,0.16545736871823827,High,5.683804035186768
+Alex,Can you suggest ways to stay focused during work?,0.10572977158343014,Neutral,6.26734471321106
+Alex,What should I do if I forget something important?,0.16893130815544607,High,6.22167181968689
+Alex,Can you help me plan my day more effectively?,0.1849971231300345,High,8.591611862182617
+Alex,How do I organize my notes for school?,0.21949452920326706,High,7.807856321334839
+Alex,Can you give me a step-by-step plan for completing my homework?,0.10650000000000001,Neutral,6.543950080871582
+Alex,What are some tips to help me remember important dates or events?,0.12292919799498747,Neutral,5.856541156768799
+Alex,Can you give me a pep talk to get me motivated to study?,0.1406826469326469,Neutral,3.3958489894866943
+Alex,"I have a big presentation tomorrow, and I’m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",0.2053644781144781,High,7.232300043106079
+Alex,"I’m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don’t miss anything?",0.19263838013838014,High,6.183183193206787
+Alex,"I’m supposed to study for a science quiz tonight, but I can’t stop scrolling on social media. Can you help me create a distraction-free study routine?",0.08352272727272725,Neutral,7.4091620445251465
+Alex,"My boss emailed me about an important project deadline in two days, but I’m freaking out because I haven’t started. What’s a good strategy to catch up quickly?",0.07018353731316694,Neutral,7.5050530433654785
+Alex,"I’ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",0.18217129629629625,High,7.705050945281982
+Alex,"I need to prepare dinner for guests tonight, but I’m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",0.10531130981950654,Neutral,6.879589080810547
+Alex,"I’ve been asked to join a new extracurricular activity at school, but I’m worried I won’t manage my existing responsibilities. How can I schedule everything without burning out?",0.13664209054834056,Neutral,8.603949069976807
+Alex,"I’m moving next week and have so many boxes to pack, but I can’t seem to start. Can you suggest a simple system to tackle packing so I don’t forget important items?",0.21259833356607555,High,5.371315956115723
+Alex,"I have multiple bills to pay this month, and I’m worried I’ll miss due dates. Can you help me create a payment schedule and reminders?",0.10433836996336997,Neutral,8.633255958557129
+Alex,"My teacher just assigned a group project, and I don’t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",0.13946604437229435,Neutral,7.102372169494629
+Brianna,Can you help me stay focused on my reading for the next 10 minutes?,0.10578133552271485,Neutral,3.23046875
+Brianna,What is the best way to break down a complex task into smaller steps?,0.050016515602453106,Neutral,7.458773136138916
+Brianna,Can you remind me about my meeting in 30 minutes?,0.19660218253968256,High,1.647636890411377
+Brianna,How should I organize my work schedule for the week?,0.1833610188261351,High,7.640393972396851
+Brianna,What should I do if I feel overwhelmed by all the tasks I need to do?,0.09727397685982023,Neutral,6.961863994598389
+Brianna,Can you help me organize my to-do list for the day?,0.13826984126984126,Neutral,8.205139875411987
+Brianna,How can I improve my focus when I'm feeling distracted?,0.12869651016972447,Neutral,7.849668979644775
+Brianna,Can you remind me about my homework assignment?,0.058885438233264316,Neutral,2.4847707748413086
+Brianna,How do I stop procrastinating and start working on my tasks?,0.08894278671064385,Neutral,7.002569913864136
+Brianna,Can you give me some tips for staying motivated to finish my project?,0.10674499526178631,Neutral,5.738533973693848
+Brianna,What are some ways to manage my anxiety when I feel overwhelmed?,0.10337385597659571,Neutral,7.324560880661011
+Brianna,Can you help me set reminders for my daily tasks?,0.27874338624338624,High,3.462078332901001
+Brianna,How do I avoid distractions when I'm studying?,0.05977552058281225,Neutral,7.450648069381714
+Brianna,Can you suggest ways to stay focused during work?,0.1286032796317607,Neutral,6.3484790325164795
+Brianna,What should I do if I forget something important?,0.04049873737373737,Neutral,5.951451063156128
+Brianna,Can you help me plan my day more effectively?,0.12677517361111115,Neutral,7.665835857391357
+Brianna,How do I organize my notes for school?,0.16873436108808454,High,8.709089040756226
+Brianna,Can you give me a step-by-step plan for completing my homework?,0.10532652102419544,Neutral,7.872115850448608
+Brianna,What are some tips to help me remember important dates or events?,0.13844771241830064,Neutral,6.193852186203003
+Brianna,Can you give me a pep talk to get me motivated to study?,0.13112797619047617,Neutral,3.773716926574707
+Brianna,"I have a big presentation tomorrow, and I’m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",0.1646856962481962,High,6.561678886413574
+Brianna,"I’m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don’t miss anything?",0.1148184746010833,Neutral,6.917025804519653
+Brianna,"I’m supposed to study for a science quiz tonight, but I can’t stop scrolling on social media. Can you help me create a distraction-free study routine?",0.1269107628482629,Neutral,7.123467922210693
+Brianna,"My boss emailed me about an important project deadline in two days, but I’m freaking out because I haven’t started. What’s a good strategy to catch up quickly?",0.12831589706589705,Neutral,7.756108045578003
+Brianna,"I’ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",0.12299490835675049,Neutral,8.652477979660034
+Brianna,"I need to prepare dinner for guests tonight, but I’m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",0.17639324960753533,High,8.331521034240723
+Brianna,"I’ve been asked to join a new extracurricular activity at school, but I’m worried I won’t manage my existing responsibilities. How can I schedule everything without burning out?",0.15228413030137172,High,8.565727949142456
+Brianna,"I’m moving next week and have so many boxes to pack, but I can’t seem to start. Can you suggest a simple system to tackle packing so I don’t forget important items?",0.10805750962000961,Neutral,6.870146036148071
+Brianna,"I have multiple bills to pay this month, and I’m worried I’ll miss due dates. Can you help me create a payment schedule and reminders?",0.0692107082732083,Neutral,6.123355865478516
+Brianna,"My teacher just assigned a group project, and I don’t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",0.1095494726592288,Neutral,9.789169073104858
+Carlos,Can you help me stay focused on my reading for the next 10 minutes?,0.2297727554563492,High,2.621776819229126
+Carlos,What is the best way to break down a complex task into smaller steps?,0.15297686688311687,High,5.226162910461426
+Carlos,Can you remind me about my meeting in 30 minutes?,0.24259362599206347,High,1.8550951480865479
+Carlos,How should I organize my work schedule for the week?,0.1836037594560322,High,6.167803049087524
+Carlos,What should I do if I feel overwhelmed by all the tasks I need to do?,0.1488743279569892,Neutral,5.208853006362915
+Carlos,Can you help me organize my to-do list for the day?,0.172527169011544,High,5.276539087295532
+Carlos,How can I improve my focus when I'm feeling distracted?,0.11431096681096682,Neutral,5.913250207901001
+Carlos,Can you remind me about my homework assignment?,0.14177248677248677,Neutral,2.2531561851501465
+Carlos,How do I stop procrastinating and start working on my tasks?,0.041376327682327456,Neutral,5.243767976760864
+Carlos,Can you give me some tips for staying motivated to finish my project?,0.1630129179331307,High,3.9460718631744385
+Carlos,What are some ways to manage my anxiety when I feel overwhelmed?,0.18919933634373293,High,6.101941108703613
+Carlos,Can you help me set reminders for my daily tasks?,0.20710521187641723,High,3.895787000656128
+Carlos,How do I avoid distractions when I'm studying?,0.11595502468664233,Neutral,5.531263113021851
+Carlos,Can you suggest ways to stay focused during work?,0.0733172123015873,Neutral,5.061154842376709
+Carlos,What should I do if I forget something important?,0.2004288274449565,High,4.072451114654541
+Carlos,Can you help me plan my day more effectively?,0.1807019255789748,High,6.150223016738892
+Carlos,How do I organize my notes for school?,0.19804322923321133,High,5.961293935775757
+Carlos,Can you give me a step-by-step plan for completing my homework?,0.19007054143772895,High,5.317260980606079
+Carlos,What are some tips to help me remember important dates or events?,0.13602887426900584,Neutral,4.976324796676636
+Carlos,Can you give me a pep talk to get me motivated to study?,0.16214278824955908,High,3.857034206390381
+Carlos,"I have a big presentation tomorrow, and I’m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",0.13217037830439893,Neutral,6.623631954193115
+Carlos,"I’m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don’t miss anything?",0.12676988891611535,Neutral,5.645469903945923
+Carlos,"I’m supposed to study for a science quiz tonight, but I can’t stop scrolling on social media. Can you help me create a distraction-free study routine?",0.13145667989417992,Neutral,7.372420072555542
+Carlos,"My boss emailed me about an important project deadline in two days, but I’m freaking out because I haven’t started. What’s a good strategy to catch up quickly?",0.10179118522408963,Neutral,5.7215070724487305
+Carlos,"I’ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",0.2218894123305888,High,6.561542272567749
+Carlos,"I need to prepare dinner for guests tonight, but I’m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",0.11804381685334064,Neutral,7.351922988891602
+Carlos,"I’ve been asked to join a new extracurricular activity at school, but I’m worried I won’t manage my existing responsibilities. How can I schedule everything without burning out?",0.1368689825657039,Neutral,6.297677040100098
+Carlos,"I’m moving next week and have so many boxes to pack, but I can’t seem to start. Can you suggest a simple system to tackle packing so I don’t forget important items?",0.15772494925037295,High,5.178534746170044
+Carlos,"I have multiple bills to pay this month, and I’m worried I’ll miss due dates. Can you help me create a payment schedule and reminders?",0.15257430577552533,High,6.517518043518066
+Carlos,"My teacher just assigned a group project, and I don’t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",0.13636138167388168,Neutral,6.149507761001587
+Emma,Can you help me stay focused on my reading for the next 10 minutes?,0.11332465277777778,Neutral,4.934042692184448
+Emma,What is the best way to break down a complex task into smaller steps?,0.15015938069216755,High,6.761348009109497
+Emma,Can you remind me about my meeting in 30 minutes?,0.13416666666666666,Neutral,1.9486181735992432
+Emma,How should I organize my work schedule for the week?,0.1941548563869993,High,8.44350790977478
+Emma,What should I do if I feel overwhelmed by all the tasks I need to do?,0.19626549754100778,High,7.207313776016235
+Emma,Can you help me organize my to-do list for the day?,0.21371931524547805,High,8.166176080703735
+Emma,How can I improve my focus when I'm feeling distracted?,0.13109539270253553,Neutral,6.6438069343566895
+Emma,Can you remind me about my homework assignment?,0.05060763888888888,Neutral,2.3021528720855713
+Emma,How do I stop procrastinating and start working on my tasks?,0.10816000019767144,Neutral,7.323857069015503
+Emma,Can you give me some tips for staying motivated to finish my project?,0.1906007727204661,High,7.667878866195679
+Emma,What are some ways to manage my anxiety when I feel overwhelmed?,0.17475237815043643,High,8.563167095184326
+Emma,Can you help me set reminders for my daily tasks?,0.19850772080153528,High,7.3386430740356445
+Emma,How do I avoid distractions when I'm studying?,0.1416745580808081,Neutral,7.682831048965454
+Emma,Can you suggest ways to stay focused during work?,0.1760340802987862,High,6.721321105957031
+Emma,What should I do if I forget something important?,0.09541637911203128,Neutral,5.91508936882019
+Emma,Can you help me plan my day more effectively?,0.17075892857142858,High,7.49276328086853
+Emma,How do I organize my notes for school?,0.11204850842227082,Neutral,7.134644031524658
+Emma,Can you give me a step-by-step plan for completing my homework?,0.18079236239950525,High,7.146344900131226
+Emma,What are some tips to help me remember important dates or events?,0.19806949806949806,High,5.54193902015686
+Emma,Can you give me a pep talk to get me motivated to study?,0.16733287847418282,High,3.9198977947235107
+Emma,"I have a big presentation tomorrow, and I’m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",0.1550998384331718,High,8.916205883026123
+Emma,"I’m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don’t miss anything?",0.08479647667147672,Neutral,7.636062383651733
+Emma,"I’m supposed to study for a science quiz tonight, but I can’t stop scrolling on social media. Can you help me create a distraction-free study routine?",0.15689356939356944,High,9.173211097717285
+Emma,"My boss emailed me about an important project deadline in two days, but I’m freaking out because I haven’t started. What’s a good strategy to catch up quickly?",0.12192092886537331,Neutral,9.95635199546814
+Emma,"I’ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",0.21176926248354822,High,7.979442834854126
+Emma,"I need to prepare dinner for guests tonight, but I’m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",0.12758736109251576,Neutral,7.906173229217529
+Emma,"I’ve been asked to join a new extracurricular activity at school, but I’m worried I won’t manage my existing responsibilities. How can I schedule everything without burning out?",0.2224558620391954,High,9.515768766403198
+Emma,"I’m moving next week and have so many boxes to pack, but I can’t seem to start. Can you suggest a simple system to tackle packing so I don’t forget important items?",0.10248622589531683,Neutral,7.1219823360443115
+Emma,"I have multiple bills to pay this month, and I’m worried I’ll miss due dates. Can you help me create a payment schedule and reminders?",0.06781565656565657,Neutral,6.606259822845459
+Emma,"My teacher just assigned a group project, and I don’t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",0.06411475869809204,Neutral,9.42792010307312
+John,Can you help me stay focused on my reading for the next 10 minutes?,0.12555724417426545,Neutral,4.612252950668335
+John,What is the best way to break down a complex task into smaller steps?,0.08884420093795097,Neutral,7.84214973449707
+John,Can you remind me about my meeting in 30 minutes?,0.2087301587301587,High,0.9671511650085449
+John,How should I organize my work schedule for the week?,0.09307659932659931,Neutral,7.370255708694458
+John,What should I do if I feel overwhelmed by all the tasks I need to do?,0.11443661160642292,Neutral,6.263577938079834
+John,Can you help me organize my to-do list for the day?,0.1520138997548636,High,6.733734130859375
+John,How can I improve my focus when I'm feeling distracted?,0.07671888854117771,Neutral,6.7318010330200195
+John,Can you remind me about my homework assignment?,0.07148919753086419,Neutral,2.3626906871795654
+John,How do I stop procrastinating and start working on my tasks?,0.07797728111681601,Neutral,7.089414119720459
+John,Can you give me some tips for staying motivated to finish my project?,0.04806496056496056,Neutral,6.166079044342041
+John,What are some ways to manage my anxiety when I feel overwhelmed?,0.12102328398624695,Neutral,6.901714086532593
+John,Can you help me set reminders for my daily tasks?,0.1606788548752834,High,5.499556064605713
+John,How do I avoid distractions when I'm studying?,0.10113419566544568,Neutral,8.838661909103394
+John,Can you suggest ways to stay focused during work?,0.1749691532300228,High,6.807064056396484
+John,What should I do if I forget something important?,0.20077711640211643,High,5.12192702293396
+John,Can you help me plan my day more effectively?,0.07724764384920633,Neutral,6.3953022956848145
+John,How do I organize my notes for school?,0.04835779058340033,Neutral,7.39441990852356
+John,Can you give me a step-by-step plan for completing my homework?,0.06830357142857142,Neutral,6.064393997192383
+John,What are some tips to help me remember important dates or events?,0.12145806520806524,Neutral,5.56604790687561
+John,Can you give me a pep talk to get me motivated to study?,0.244877938216754,High,3.72355318069458
+John,"I have a big presentation tomorrow, and I’m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",0.17759385589441767,High,8.027047157287598
+John,"I’m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don’t miss anything?",0.13218601834673266,Neutral,7.583956956863403
+John,"I’m supposed to study for a science quiz tonight, but I can’t stop scrolling on social media. Can you help me create a distraction-free study routine?",0.11956349206349207,Neutral,6.936727046966553
+John,"My boss emailed me about an important project deadline in two days, but I’m freaking out because I haven’t started. What’s a good strategy to catch up quickly?",0.1183016190159047,Neutral,7.084815263748169
+John,"I’ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",0.13141306330961505,Neutral,7.104195833206177
+John,"I need to prepare dinner for guests tonight, but I’m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",0.005566655566655571,Neutral,6.986878156661987
+John,"I’ve been asked to join a new extracurricular activity at school, but I’m worried I won’t manage my existing responsibilities. How can I schedule everything without burning out?",0.14894547515976092,Neutral,7.623187065124512
+John,"I’m moving next week and have so many boxes to pack, but I can’t seem to start. Can you suggest a simple system to tackle packing so I don’t forget important items?",0.10851267779839209,Neutral,6.42251992225647
+John,"I have multiple bills to pay this month, and I’m worried I’ll miss due dates. Can you help me create a payment schedule and reminders?",0.06278447121820616,Neutral,8.523696184158325
+John,"My teacher just assigned a group project, and I don’t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",0.1413265306122449,Neutral,7.891371011734009
+Maya,Can you help me stay focused on my reading for the next 10 minutes?,0.12273391812865499,Neutral,4.684024810791016
+Maya,What is the best way to break down a complex task into smaller steps?,0.06148606601731603,Neutral,7.17267918586731
+Maya,Can you remind me about my meeting in 30 minutes?,0.08246114417989418,Neutral,1.2347791194915771
+Maya,How should I organize my work schedule for the week?,0.11152564748469918,Neutral,10.246982336044312
+Maya,What should I do if I feel overwhelmed by all the tasks I need to do?,0.09722104586235018,Neutral,7.32440185546875
+Maya,Can you help me organize my to-do list for the day?,0.14678502053502054,Neutral,6.4256157875061035
+Maya,How can I improve my focus when I'm feeling distracted?,0.09119428294573645,Neutral,8.340001821517944
+Maya,Can you remind me about my homework assignment?,0.18189102564102566,High,2.4585201740264893
+Maya,How do I stop procrastinating and start working on my tasks?,0.07807096387604862,Neutral,6.34846305847168
+Maya,Can you give me some tips for staying motivated to finish my project?,0.14628091546696195,Neutral,6.554726839065552
+Maya,What are some ways to manage my anxiety when I feel overwhelmed?,0.15042255892255893,High,7.050727128982544
+Maya,Can you help me set reminders for my daily tasks?,0.18034825870646765,High,6.964541912078857
+Maya,How do I avoid distractions when I'm studying?,0.09314104187774398,Neutral,7.017262935638428
+Maya,Can you suggest ways to stay focused during work?,0.10945657877476056,Neutral,6.957178115844727
+Maya,What should I do if I forget something important?,0.16706194044903724,High,7.49369215965271
+Maya,Can you help me plan my day more effectively?,0.1666870642337932,High,10.560681343078613
+Maya,How do I organize my notes for school?,0.11517182924949916,Neutral,9.294955968856812
+Maya,Can you give me a step-by-step plan for completing my homework?,0.1646438383045526,High,6.6854400634765625
+Maya,What are some tips to help me remember important dates or events?,0.1578965016465017,High,5.598591089248657
+Maya,Can you give me a pep talk to get me motivated to study?,0.17243398962148965,High,3.339440107345581
+Maya,"I have a big presentation tomorrow, and I’m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",0.10121474889993408,Neutral,6.675721168518066
+Maya,"I’m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don’t miss anything?",0.1223676987263944,Neutral,5.3046369552612305
+Maya,"I’m supposed to study for a science quiz tonight, but I can’t stop scrolling on social media. Can you help me create a distraction-free study routine?",0.1294888540578196,Neutral,7.282968044281006
+Maya,"My boss emailed me about an important project deadline in two days, but I’m freaking out because I haven’t started. What’s a good strategy to catch up quickly?",0.12455609866324156,Neutral,7.746788024902344
+Maya,"I’ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",0.10928724053724051,Neutral,6.9324119091033936
+Maya,"I need to prepare dinner for guests tonight, but I’m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",0.12629779722667306,Neutral,7.137950897216797
+Maya,"I’ve been asked to join a new extracurricular activity at school, but I’m worried I won’t manage my existing responsibilities. How can I schedule everything without burning out?",0.12794080040915484,Neutral,6.166867017745972
+Maya,"I’m moving next week and have so many boxes to pack, but I can’t seem to start. Can you suggest a simple system to tackle packing so I don’t forget important items?",0.11241577642787319,Neutral,7.138027906417847
+Maya,"I have multiple bills to pay this month, and I’m worried I’ll miss due dates. Can you help me create a payment schedule and reminders?",0.11955692488262913,Neutral,6.894953966140747
+Maya,"My teacher just assigned a group project, and I don’t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",0.07020446278258778,Neutral,6.483421087265015
+Liam,Can you help me stay focused on my reading for the next 10 minutes?,0.140950176366843,Neutral,2.0206820964813232
+Liam,What is the best way to break down a complex task into smaller steps?,0.1374482084500467,Neutral,5.086014032363892
+Liam,Can you remind me about my meeting in 30 minutes?,0.1827876984126984,High,0.9279327392578125
+Liam,How should I organize my work schedule for the week?,0.08624338624338623,Neutral,5.85697603225708
+Liam,What should I do if I feel overwhelmed by all the tasks I need to do?,0.11259920634920632,Neutral,4.655910968780518
+Liam,Can you help me organize my to-do list for the day?,0.17640580484330493,High,5.704225778579712
+Liam,How can I improve my focus when I'm feeling distracted?,0.1176845238095238,Neutral,5.000395059585571
+Liam,Can you remind me about my homework assignment?,0.24333964646464645,High,1.2527880668640137
+Liam,How do I stop procrastinating and start working on my tasks?,0.21211662631154157,High,5.37021803855896
+Liam,Can you give me some tips for staying motivated to finish my project?,0.10129071593915344,Neutral,3.7352941036224365
+Liam,What are some ways to manage my anxiety when I feel overwhelmed?,0.03646825396825396,Neutral,4.961982250213623
+Liam,Can you help me set reminders for my daily tasks?,0.19094065656565656,High,3.6246519088745117
+Liam,How do I avoid distractions when I'm studying?,0.09402777777777781,Neutral,4.771106004714966
+Liam,Can you suggest ways to stay focused during work?,0.23814037698412702,High,4.625071287155151
+Liam,What should I do if I forget something important?,0.21606079931972788,High,3.281749963760376
+Liam,Can you help me plan my day more effectively?,0.07134350633528264,Neutral,6.540548086166382
+Liam,How do I organize my notes for school?,0.1260066526610644,Neutral,5.000655889511108
+Liam,Can you give me a step-by-step plan for completing my homework?,0.1947010869565218,High,5.583108186721802
+Liam,What are some tips to help me remember important dates or events?,0.15256982600732594,High,4.446596145629883
+Liam,Can you give me a pep talk to get me motivated to study?,0.11702536730945821,Neutral,3.184422016143799
+Liam,"I have a big presentation tomorrow, and I’m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",0.2019755003450656,High,5.504091024398804
+Liam,"I’m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don’t miss anything?",0.04321208305583306,Neutral,5.065508842468262
+Liam,"I’m supposed to study for a science quiz tonight, but I can’t stop scrolling on social media. Can you help me create a distraction-free study routine?",0.17683704780361761,High,6.183660984039307
+Liam,"My boss emailed me about an important project deadline in two days, but I’m freaking out because I haven’t started. What’s a good strategy to catch up quickly?",0.20915397408963582,High,5.234750986099243
+Liam,"I’ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",0.22705057651991614,High,4.432386159896851
+Liam,"I need to prepare dinner for guests tonight, but I’m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",0.3538871173469388,High,7.467833042144775
+Liam,"I’ve been asked to join a new extracurricular activity at school, but I’m worried I won’t manage my existing responsibilities. How can I schedule everything without burning out?",0.18487491914216048,High,4.701404094696045
+Liam,"I’m moving next week and have so many boxes to pack, but I can’t seem to start. Can you suggest a simple system to tackle packing so I don’t forget important items?",0.15957505897982088,High,6.097252130508423
+Liam,"I have multiple bills to pay this month, and I’m worried I’ll miss due dates. Can you help me create a payment schedule and reminders?",0.017669064153439152,Neutral,6.203131914138794
+Liam,"My teacher just assigned a group project, and I don’t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",0.10300925925925924,Neutral,6.275543212890625
+Sarah,Can you help me stay focused on my reading for the next 10 minutes?,0.15096371882086165,High,4.22344183921814
+Sarah,What is the best way to break down a complex task into smaller steps?,0.13965314520870076,Neutral,5.351029872894287
+Sarah,Can you remind me about my meeting in 30 minutes?,0.2571759259259259,High,1.3358650207519531
+Sarah,How should I organize my work schedule for the week?,0.12042024642024644,Neutral,7.218797206878662
+Sarah,What should I do if I feel overwhelmed by all the tasks I need to do?,0.08121146530237441,Neutral,6.676537752151489
+Sarah,Can you help me organize my to-do list for the day?,0.14971038707880813,Neutral,6.287564992904663
+Sarah,How can I improve my focus when I'm feeling distracted?,0.13715610047846888,Neutral,7.132209300994873
+Sarah,Can you remind me about my homework assignment?,0.24640151515151515,High,2.1570780277252197
+Sarah,How do I stop procrastinating and start working on my tasks?,0.0560536327933235,Neutral,7.196020841598511
+Sarah,Can you give me some tips for staying motivated to finish my project?,0.14295935545935548,Neutral,5.801419019699097
+Sarah,What are some ways to manage my anxiety when I feel overwhelmed?,0.09989729225023342,Neutral,5.907179117202759
+Sarah,Can you help me set reminders for my daily tasks?,0.1848333333333333,High,3.2286558151245117
+Sarah,How do I avoid distractions when I'm studying?,0.15400313971742546,High,6.7169508934021
+Sarah,Can you suggest ways to stay focused during work?,0.12795815295815297,Neutral,6.012808084487915
+Sarah,What should I do if I forget something important?,0.12229582693292368,Neutral,5.922574043273926
+Sarah,Can you help me plan my day more effectively?,0.16754333946114766,High,7.271103143692017
+Sarah,How do I organize my notes for school?,0.17277225236085994,High,7.372322082519531
+Sarah,Can you give me a step-by-step plan for completing my homework?,0.0934768230963883,Neutral,6.80367636680603
+Sarah,What are some tips to help me remember important dates or events?,0.12867876658860267,Neutral,5.671869993209839
+Sarah,Can you give me a pep talk to get me motivated to study?,0.26498822814612283,High,3.8612639904022217
+Sarah,"I have a big presentation tomorrow, and I’m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",0.1730028521825397,High,6.765777826309204
+Sarah,"I’m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don’t miss anything?",0.1179112554112554,Neutral,5.901852130889893
+Sarah,"I’m supposed to study for a science quiz tonight, but I can’t stop scrolling on social media. Can you help me create a distraction-free study routine?",0.17451556380127808,High,7.067001819610596
+Sarah,"My boss emailed me about an important project deadline in two days, but I’m freaking out because I haven’t started. What’s a good strategy to catch up quickly?",0.1164750957854406,Neutral,6.194509029388428
+Sarah,"I’ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",0.16585825027685494,High,6.87012505531311
+Sarah,"I need to prepare dinner for guests tonight, but I’m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",0.13972763347763345,Neutral,7.5329999923706055
+Sarah,"I’ve been asked to join a new extracurricular activity at school, but I’m worried I won’t manage my existing responsibilities. How can I schedule everything without burning out?",0.09030455060812206,Neutral,6.649505853652954
+Sarah,"I’m moving next week and have so many boxes to pack, but I can’t seem to start. Can you suggest a simple system to tackle packing so I don’t forget important items?",0.0757905669599218,Neutral,6.378393173217773
+Sarah,"I have multiple bills to pay this month, and I’m worried I’ll miss due dates. Can you help me create a payment schedule and reminders?",0.13338615023474176,Neutral,7.169961214065552
+Sarah,"My teacher just assigned a group project, and I don’t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",0.16197999155316228,High,6.103430986404419
+Ethan,Can you help me stay focused on my reading for the next 10 minutes?,0.15367913832199548,High,3.1141161918640137
+Ethan,What is the best way to break down a complex task into smaller steps?,0.10810027078545599,Neutral,7.3174121379852295
+Ethan,Can you remind me about my meeting in 30 minutes?,0.11678819444444444,Neutral,1.1591968536376953
+Ethan,How should I organize my work schedule for the week?,0.13495277072863282,Neutral,8.2464120388031
+Ethan,What should I do if I feel overwhelmed by all the tasks I need to do?,0.13756645401382242,Neutral,6.446062088012695
+Ethan,Can you help me organize my to-do list for the day?,0.13957936243650526,Neutral,6.4551591873168945
+Ethan,How can I improve my focus when I'm feeling distracted?,0.11492583643746436,Neutral,7.828526973724365
+Ethan,Can you remind me about my homework assignment?,-0.011413043478260882,Neutral,1.9407706260681152
+Ethan,How do I stop procrastinating and start working on my tasks?,0.22893469579516096,High,6.572736024856567
+Ethan,Can you give me some tips for staying motivated to finish my project?,0.11578072828072829,Neutral,6.201722145080566
+Ethan,What are some ways to manage my anxiety when I feel overwhelmed?,0.1643718671679198,High,7.116911172866821
+Ethan,Can you help me set reminders for my daily tasks?,0.23199094376042423,High,7.0247979164123535
+Ethan,How do I avoid distractions when I'm studying?,0.145435871998372,Neutral,6.33171820640564
+Ethan,Can you suggest ways to stay focused during work?,0.07062572843822842,Neutral,6.983384847640991
+Ethan,What should I do if I forget something important?,0.11569575060954371,Neutral,7.102799892425537
+Ethan,Can you help me plan my day more effectively?,0.13557095186559479,Neutral,8.40590500831604
+Ethan,How do I organize my notes for school?,0.1291328710971568,Neutral,7.384642124176025
+Ethan,Can you give me a step-by-step plan for completing my homework?,0.1292030609508486,Neutral,9.257681369781494
+Ethan,What are some tips to help me remember important dates or events?,0.14945735322241346,Neutral,7.013476848602295
+Ethan,Can you give me a pep talk to get me motivated to study?,0.15286894036894033,High,3.2726590633392334
+Ethan,"I have a big presentation tomorrow, and I’m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",0.09889133176534746,Neutral,9.34345293045044
+Ethan,"I’m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don’t miss anything?",0.1403333333333333,Neutral,5.7264018058776855
+Ethan,"I’m supposed to study for a science quiz tonight, but I can’t stop scrolling on social media. Can you help me create a distraction-free study routine?",0.15679924242424242,High,6.621210813522339
+Ethan,"My boss emailed me about an important project deadline in two days, but I’m freaking out because I haven’t started. What’s a good strategy to catch up quickly?",0.10361980191525647,Neutral,6.733666896820068
+Ethan,"I’ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",0.17932554507896972,High,6.183192729949951
+Ethan,"I need to prepare dinner for guests tonight, but I’m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",0.10183518081245355,Neutral,6.70105504989624
+Ethan,"I’ve been asked to join a new extracurricular activity at school, but I’m worried I won’t manage my existing responsibilities. How can I schedule everything without burning out?",0.14132972582972583,Neutral,6.571459054946899
+Ethan,"I’m moving next week and have so many boxes to pack, but I can’t seem to start. Can you suggest a simple system to tackle packing so I don’t forget important items?",0.15925183757215008,High,6.136965274810791
+Ethan,"I have multiple bills to pay this month, and I’m worried I’ll miss due dates. Can you help me create a payment schedule and reminders?",0.07359851347946585,Neutral,5.672724962234497
+Ethan,"My teacher just assigned a group project, and I don’t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",0.11579576428061279,Neutral,7.557152032852173
+Olivia,Can you help me stay focused on my reading for the next 10 minutes?,0.10852672666288737,Neutral,3.471327066421509
+Olivia,What is the best way to break down a complex task into smaller steps?,0.11840964590964591,Neutral,5.307304859161377
+Olivia,Can you remind me about my meeting in 30 minutes?,0.3364583333333333,High,0.8794112205505371
+Olivia,How should I organize my work schedule for the week?,0.14671207415772633,Neutral,7.776648044586182
+Olivia,What should I do if I feel overwhelmed by all the tasks I need to do?,0.06868427579365079,Neutral,6.5442140102386475
+Olivia,Can you help me organize my to-do list for the day?,0.10547776875901875,Neutral,4.495187997817993
+Olivia,How can I improve my focus when I'm feeling distracted?,0.061807702879131454,Neutral,7.28542685508728
+Olivia,Can you remind me about my homework assignment?,0.2535493827160493,High,1.313951015472412
+Olivia,How do I stop procrastinating and start working on my tasks?,0.059797343179696115,Neutral,7.43373703956604
+Olivia,Can you give me some tips for staying motivated to finish my project?,0.12296481092436974,Neutral,5.519357919692993
+Olivia,What are some ways to manage my anxiety when I feel overwhelmed?,0.10121882086167801,Neutral,4.5065531730651855
+Olivia,Can you help me set reminders for my daily tasks?,0.1346326164874552,Neutral,4.931325197219849
+Olivia,How do I avoid distractions when I'm studying?,0.09289456279587856,Neutral,5.938767910003662
+Olivia,Can you suggest ways to stay focused during work?,0.10481663223140497,Neutral,6.358795881271362
+Olivia,What should I do if I forget something important?,0.11211926211926211,Neutral,6.111274003982544
+Olivia,Can you help me plan my day more effectively?,0.12405692729766805,Neutral,8.820523738861084
+Olivia,How do I organize my notes for school?,0.1512400793650794,High,8.492067098617554
+Olivia,Can you give me a step-by-step plan for completing my homework?,0.11514910130718957,Neutral,6.706459999084473
+Olivia,What are some tips to help me remember important dates or events?,0.12213338071547025,Neutral,4.2987799644470215
+Olivia,Can you give me a pep talk to get me motivated to study?,0.11468704906204907,Neutral,3.5665500164031982
+Olivia,"I have a big presentation tomorrow, and I’m feeling so scatterbrained. Can you help me outline my key talking points and rehearse effectively?",0.16754875948424333,High,8.114940881729126
+Olivia,"I’m overloaded with house chores, and I keep forgetting small tasks like taking out the trash or doing laundry. How can I organize these tasks so I don’t miss anything?",0.13110269360269358,Neutral,6.1980578899383545
+Olivia,"I’m supposed to study for a science quiz tonight, but I can’t stop scrolling on social media. Can you help me create a distraction-free study routine?",0.19016999260901699,High,6.599638938903809
+Olivia,"My boss emailed me about an important project deadline in two days, but I’m freaking out because I haven’t started. What’s a good strategy to catch up quickly?",0.12217787114845938,Neutral,6.466832876205444
+Olivia,"I’ve promised to meet friends this weekend, but I also have to finish my homework. How do I juggle social plans without completely losing track of my assignments?",0.12520018952854778,Neutral,5.648355007171631
+Olivia,"I need to prepare dinner for guests tonight, but I’m overwhelmed deciding what to cook and how to manage the timing. Can you help me plan step-by-step?",0.16221264367816088,High,6.019766092300415
+Olivia,"I’ve been asked to join a new extracurricular activity at school, but I’m worried I won’t manage my existing responsibilities. How can I schedule everything without burning out?",0.16621602580426115,High,6.416661024093628
+Olivia,"I’m moving next week and have so many boxes to pack, but I can’t seem to start. Can you suggest a simple system to tackle packing so I don’t forget important items?",0.1451561065197429,Neutral,5.5283591747283936
+Olivia,"I have multiple bills to pay this month, and I’m worried I’ll miss due dates. Can you help me create a payment schedule and reminders?",0.11452703766691862,Neutral,6.542304992675781
+Olivia,"My teacher just assigned a group project, and I don’t want to let my teammates down. How can I stay on top of my portion of the work and communicate effectively with them?",0.1595486111111111,High,6.975922107696533
