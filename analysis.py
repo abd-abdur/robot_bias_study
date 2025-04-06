@@ -5,11 +5,11 @@ import scipy.stats as stats
 
 def load_results(results_file):
     """
-    Loads the JSON results produced by sentiment_analysis.py and returns a pandas DataFrame.
+    Loads the CSV results produced by sentiment_analysis.py and returns a pandas DataFrame.
     """
-    with open(results_file, 'r') as f:
-        data = json.load(f)
-    return pd.DataFrame(data)
+    print(f"Loading results from: {results_file}")
+    df = pd.read_csv(results_file)
+    return df
 
 def demographic_parity_analysis(df, demographic_col='persona'):
     """
@@ -38,8 +38,6 @@ def disparate_impact_analysis(favorable_rate, threshold=0.8):
 
     # Calculate impact ratios for each group
     favorable_rate['impact_ratio'] = favorable_rate['favorable_rate'] / max_rate
-
-    # Flag any group with impact ratio less than the threshold (4/5ths rule)
     favorable_rate['disparate_impact'] = favorable_rate['impact_ratio'] < threshold
 
     print("\nDisparate Impact Analysis (4/5ths rule):")
@@ -61,12 +59,16 @@ def significance_testing(df):
     Perform statistical significance testing (e.g., ANOVA, chi-square) to determine if the observed disparities
     in satisfaction scores across demographic groups are statistically significant.
     """
-    # Example: ANOVA for satisfaction score across different personas
-    persona_groups = df.groupby('persona')['satisfaction_score'].apply(list)
+    # Convert satisfaction scores to numeric values (1 for High, 0 for Neutral, -1 for Low)
+    satisfaction_mapping = {'High': 1, 'Neutral': 0, 'Low': -1}
+    df['satisfaction_score_numeric'] = df['satisfaction_score'].map(satisfaction_mapping)
+
+    # Group by persona and apply ANOVA for satisfaction scores
+    persona_groups = df.groupby('persona')['satisfaction_score_numeric'].apply(list)
     
     # Perform one-way ANOVA test
     f_statistic, p_value = stats.f_oneway(*persona_groups)
-    
+
     print("\nANOVA Results for Satisfaction Score across Personas:")
     print(f"F-statistic: {f_statistic}, P-value: {p_value}")
     return f_statistic, p_value
