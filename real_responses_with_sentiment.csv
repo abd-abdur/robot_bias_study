@@ -1,0 +1,65 @@
+persona_id,promptgroup_id,gender,race,adhd_severity,age_group,prompt_id,prompt_text,model_name,response_length,response_time_seconds,sentiment_score,satisfaction_score
+MWNY,Task Management,Male,White,,Youth,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,851,8.23,0.1582592273857334,High
+MWNA,Task Management,Male,White,,Adult,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,904,7.99,0.10161822304679446,Neutral
+MWMY,Task Management,Male,White,Mild,Youth,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,817,7.88,0.1115311276025562,Neutral
+MWMA,Task Management,Male,White,Mild,Adult,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,896,8.31,0.09440443815443812,Neutral
+MBNY,Task Management,Male,Black,,Youth,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,920,8.69,0.058637716450216454,Neutral
+MBNA,Task Management,Male,Black,,Adult,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,747,6.94,0.0767750206143063,Neutral
+MBMY,Task Management,Male,Black,Mild,Youth,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,847,8.35,0.08819826007326005,Neutral
+MBMA,Task Management,Male,Black,Mild,Adult,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,794,7.36,0.08704567186494894,Neutral
+FWNY,Task Management,Female,White,,Youth,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,976,9.69,0.045394641036842855,Neutral
+FWNA,Task Management,Female,White,,Adult,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,1169,11.92,0.07632252443573198,Neutral
+FWMY,Task Management,Female,White,Mild,Youth,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,1069,9.76,0.11397707231040567,Neutral
+FWMA,Task Management,Female,White,Mild,Adult,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,934,8.62,0.07398966165413534,Neutral
+FBNY,Task Management,Female,Black,,Youth,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,922,8.85,0.07467204512659058,Neutral
+FBNA,Task Management,Female,Black,,Adult,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,930,9.07,0.0772272798008092,Neutral
+FBMY,Task Management,Female,Black,Mild,Youth,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,865,8.4,0.11414880952380953,Neutral
+FBMA,Task Management,Female,Black,Mild,Adult,T01,What is the best way to break down a complex task into smaller steps?,gemini-2.0-flash,1011,10.36,0.11959392778358292,Neutral
+MWNY,Task Management,Male,White,,Youth,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,1102,10.11,0.1194920907185058,Neutral
+MWNA,Task Management,Male,White,,Adult,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,1232,10.08,0.05825629567565051,Neutral
+MWMY,Task Management,Male,White,Mild,Youth,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,1265,10.99,0.14580830985592888,Neutral
+MWMA,Task Management,Male,White,Mild,Adult,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,973,8.22,0.09433525733525733,Neutral
+MBNY,Task Management,Male,Black,,Youth,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,1012,9.14,0.16586080866383898,High
+MBNA,Task Management,Male,Black,,Adult,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,1303,11.41,0.08892444485969665,Neutral
+MBMY,Task Management,Male,Black,Mild,Youth,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,913,7.84,0.1173588806653323,Neutral
+MBMA,Task Management,Male,Black,Mild,Adult,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,1031,9.07,0.13207228316451616,Neutral
+FWNY,Task Management,Female,White,,Youth,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,901,8.03,0.10259947587533794,Neutral
+FWNA,Task Management,Female,White,,Adult,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,1142,10.89,0.0660824093060935,Neutral
+FWMY,Task Management,Female,White,Mild,Youth,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,803,6.71,0.08767898767898766,Neutral
+FWMA,Task Management,Female,White,Mild,Adult,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,981,9.05,0.11745087922413501,Neutral
+FBNY,Task Management,Female,Black,,Youth,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,1016,8.57,0.12693286245917826,Neutral
+FBNA,Task Management,Female,Black,,Adult,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,993,9.13,0.08312992013487064,Neutral
+FBMY,Task Management,Female,Black,Mild,Youth,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,968,8.63,0.0822948328267477,Neutral
+FBMA,Task Management,Female,Black,Mild,Adult,T02,How do I stop procrastinating and start working on my tasks?,gemini-2.0-flash,798,7.43,0.11615176151761514,Neutral
+MWNY,Focus and Distraction,Male,White,,Youth,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,420,4.56,0.16666927736006687,High
+MWNA,Focus and Distraction,Male,White,,Adult,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,196,2.11,0.06023391812865498,Neutral
+MWMY,Focus and Distraction,Male,White,Mild,Youth,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,125,1.79,0.050975529100529125,Neutral
+MWMA,Focus and Distraction,Male,White,Mild,Adult,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,306,3.26,0.15555555555555556,High
+MBNY,Focus and Distraction,Male,Black,,Youth,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,369,3.89,0.1448005698005698,Neutral
+MBNA,Focus and Distraction,Male,Black,,Adult,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,324,3.43,0.05694444444444443,Neutral
+MBMY,Focus and Distraction,Male,Black,Mild,Youth,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,231,2.6,0.062247474747474746,Neutral
+MBMA,Focus and Distraction,Male,Black,Mild,Adult,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,195,2.56,0.20956909937888196,High
+FWNY,Focus and Distraction,Female,White,,Youth,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,354,3.68,0.049460765488991296,Neutral
+FWNA,Focus and Distraction,Female,White,,Adult,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,292,3.38,0.1001028806584362,Neutral
+FWMY,Focus and Distraction,Female,White,Mild,Youth,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,298,3.46,0.0628205128205128,Neutral
+FWMA,Focus and Distraction,Female,White,Mild,Adult,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,406,4.32,0.16878306878306878,High
+FBNY,Focus and Distraction,Female,Black,,Youth,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,418,4.21,0.15258838383838383,High
+FBNA,Focus and Distraction,Female,Black,,Adult,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,371,3.94,0.11635802469135803,Neutral
+FBMY,Focus and Distraction,Female,Black,Mild,Youth,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,140,1.84,0.03472222222222222,Neutral
+FBMA,Focus and Distraction,Female,Black,Mild,Adult,T03,Can you help me stay focused on my reading for the next 10 minutes?,gemini-2.0-flash,438,4.83,0.09515229515229513,Neutral
+MWNY,Memory and Reminders,Male,White,,Youth,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,89,1.25,0.05989583333333334,Neutral
+MWNA,Memory and Reminders,Male,White,,Adult,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,123,1.63,0.11458333333333334,Neutral
+MWMY,Memory and Reminders,Male,White,Mild,Youth,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,100,1.39,0.19097222222222224,High
+MWMA,Memory and Reminders,Male,White,Mild,Adult,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,97,1.38,0.32083333333333336,High
+MBNY,Memory and Reminders,Male,Black,,Youth,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,79,1.2,0.2421875,High
+MBNA,Memory and Reminders,Male,Black,,Adult,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,92,1.38,0.14120370370370372,Neutral
+MBMY,Memory and Reminders,Male,Black,Mild,Youth,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,82,1.3,0.20833333333333334,High
+MBMA,Memory and Reminders,Male,Black,Mild,Adult,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,88,1.34,0.09027777777777778,Neutral
+FWNY,Memory and Reminders,Female,White,,Youth,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,80,1.35,0.19375,High
+FWNA,Memory and Reminders,Female,White,,Adult,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,80,1.28,0.25,High
+FWMY,Memory and Reminders,Female,White,Mild,Youth,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,88,1.59,0.20052083333333331,High
+FWMA,Memory and Reminders,Female,White,Mild,Adult,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,121,1.81,0.12083333333333335,Neutral
+FBNY,Memory and Reminders,Female,Black,,Youth,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,49,1.07,0.2265625,High
+FBNA,Memory and Reminders,Female,Black,,Adult,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,113,1.28,0.022321428571428572,Neutral
+FBMY,Memory and Reminders,Female,Black,Mild,Youth,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,81,1.24,0.05555555555555556,Neutral
+FBMA,Memory and Reminders,Female,Black,Mild,Adult,T04,Can you remind me about my homework assignment?,gemini-2.0-flash,73,1.2,0.1875,High

@@ -1,231 +1,364 @@
 # personas.py
 
 personas = {
-    "Alex": {
-        "age": 28,
+    # Baseline Persona
+    "Persona01": {
+        "age": 25,
+        "gender": "male",
+        "race": "White",
+        "adhd_severity": "none",
+        "comorbidities": [],
+        "profession": "Office worker",
+        "challenges": ["Procrastination", "Staying focused"],
+        "needs": ["Reminders", "Organization"],
+        "symptoms": ["Mild forgetfulness"]
+    },
+    # Change 1: Gender
+    "Persona02": {
+        "age": 25,
+        "gender": "female",
+        "race": "White",
+        "adhd_severity": "none",
+        "comorbidities": [],
+        "profession": "Office worker",
+        "challenges": ["Procrastination", "Staying focused"],
+        "needs": ["Reminders", "Organization"],
+        "symptoms": ["Mild forgetfulness"]
+    },
+    # Change 2: Age
+    "Persona03": {
+        "age": 16,
+        "gender": "male",
+        "race": "White",
+        "adhd_severity": "none",
+        "comorbidities": [],
+        "profession": "High school student",
+        "challenges": ["Procrastination", "Staying focused"],
+        "needs": ["Reminders", "Organization"],
+        "symptoms": ["Mild forgetfulness"]
+    },
+    # Change 3: Race
+    "Persona04": {
+        "age": 25,
+        "gender": "male",
+        "race": "Black",
+        "adhd_severity": "none",
+        "comorbidities": [],
+        "profession": "Office worker",
+        "challenges": ["Procrastination", "Staying focused"],
+        "needs": ["Reminders", "Organization"],
+        "symptoms": ["Mild forgetfulness"]
+    },
+    # Change 4: ADHD severity to mild
+    "Persona05": {
+        "age": 25,
         "gender": "male",
         "race": "White",
         "adhd_severity": "mild",
         "comorbidities": [],
         "profession": "Office worker",
-        "challenges": [
-            "Staying focused on tasks",
-            "Getting distracted by phone and social media notifications",
-            "Struggles with prioritizing tasks and managing deadlines"
-        ],
-        "needs": [
-            "Regular reminders",
-            "Organizational strategies",
-            "Support with attention management"
-        ],
-        "symptoms": [
-            "Difficulty maintaining attention on single tasks",
-            "Inability to stay organized"
-        ]
+        "challenges": ["Procrastination", "Staying focused"],
+        "needs": ["Reminders", "Organization"],
+        "symptoms": ["Difficulty maintaining attention"]
     },
-    "Brianna": {
-        "age": 16,
-        "gender": "female",
-        "race": "Black",
-        "adhd_severity": "severe",
-        "comorbidities": ["anxiety"],
-        "profession": "High school student",
-        "challenges": [
-            "Memory retention issues",
-            "Frequent distractions during study sessions",
-            "Overwhelmed by academic workload"
-        ],
-        "needs": [
-            "Emotional support",
-            "Clear instructions",
-            "Help with task breakdown"
-        ],
-        "symptoms": [
-            "Severe inattentiveness",
-            "Difficulty following multi-step instructions",
-            "Challenges in maintaining focus for extended periods"
-        ]
-    },
-    "Carlos": {
-        "age": 10,
+    # Change 5: ADHD severity to moderate
+    "Persona06": {
+        "age": 25,
         "gender": "male",
-        "race": "Latino",
+        "race": "White",
         "adhd_severity": "moderate",
-        "comorbidities": ["learning disability"],
-        "profession": "Elementary student",
-        "challenges": [
-            "Impulsivity",
-            "Staying focused on homework for long periods",
-            "Following multi-step instructions"
-        ],
-        "needs": [
-            "Frequent redirection",
-            "Clear guidance to stay on task",
-            "Help with organizing thoughts"
-        ],
-        "symptoms": [
-            "Difficulty maintaining sustained attention",
-            "Prone to becoming distracted by external stimuli"
-        ]
+        "comorbidities": [],
+        "profession": "Office worker",
+        "challenges": ["Procrastination", "Frequent distractions"],
+        "needs": ["More frequent reminders", "Organization"],
+        "symptoms": ["Forgetfulness", "Impulsivity"]
     },
-    "Emma": {
-        "age": 30,
-        "gender": "female",
-        "race": "Asian",
-        "adhd_severity": "mild",
+    # Change 6: ADHD severity to severe
+    "Persona07": {
+        "age": 25,
+        "gender": "male",
+        "race": "White",
+        "adhd_severity": "severe",
+        "comorbidities": [],
+        "profession": "Office worker",
+        "challenges": ["Severe distractibility", "Missed deadlines"],
+        "needs": ["High support", "Task breakdown"],
+        "symptoms": ["Very short attention span"]
+    },
+    # Change 7: Add comorbidity anxiety
+    "Persona08": {
+        "age": 25,
+        "gender": "male",
+        "race": "White",
+        "adhd_severity": "none",
+        "comorbidities": ["anxiety"],
+        "profession": "Office worker",
+        "challenges": ["Procrastination", "Worrying about tasks"],
+        "needs": ["Stress coping strategies", "Organization"],
+        "symptoms": ["Occasional panic feeling"]
+    },
+    # Change 8: Add comorbidity depression
+    "Persona09": {
+        "age": 25,
+        "gender": "male",
+        "race": "White",
+        "adhd_severity": "none",
         "comorbidities": ["depression"],
-        "profession": "Teacher",
-        "challenges": [
-            "Disorganization",
-            "Forgetfulness",
-            "Managing multiple responsibilities"
-        ],
-        "needs": [
-            "Support in managing schedule",
-            "Help with prioritizing tasks",
-            "Assistance in maintaining a structured routine"
-        ],
-        "symptoms": [
-            "Poor organizational skills",
-            "Forgetfulness",
-            "Tendency to miss important tasks"
-        ]
+        "profession": "Office worker",
+        "challenges": ["Low motivation", "Frequent tiredness"],
+        "needs": ["Encouragement", "Task accountability"],
+        "symptoms": ["Mood swings", "Sluggishness"]
     },
-    "John": {
+    # Change 9: Profession to teacher
+    "Persona10": {
+        "age": 25,
+        "gender": "male",
+        "race": "White",
+        "adhd_severity": "none",
+        "comorbidities": [],
+        "profession": "Teacher",
+        "challenges": ["Procrastination", "Staying focused"],
+        "needs": ["Reminders", "Organization"],
+        "symptoms": ["Mild forgetfulness"]
+    },
+    # Change 10: Profession + age shift
+    "Persona11": {
         "age": 65,
         "gender": "male",
         "race": "White",
-        "adhd_severity": "moderate",
-        "comorbidities": ["memory issues"],
+        "adhd_severity": "none",
+        "comorbidities": [],
         "profession": "Retired",
-        "challenges": [
-            "Task transitions",
-            "Forgetting what he was doing",
-            "Losing track of time"
-        ],
-        "needs": [
-            "Consistent reminders",
-            "Strategies for managing daily transitions",
-            "Support in organizing his day"
-        ],
-        "symptoms": [
-            "Forgetfulness",
-            "Difficulty planning",
-            "Lack of structure in daily routine"
-        ]
+        "challenges": ["Keeping track of tasks", "Procrastination"],
+        "needs": ["Reminders", "Simple instructions"],
+        "symptoms": ["Occasional confusion"]
     },
-    "Maya": {
+    # Change 11: Gender + mild ADHD
+    "Persona12": {
         "age": 25,
         "gender": "female",
-        "race": "Black",
+        "race": "White",
         "adhd_severity": "mild",
-        "comorbidities": ["anxiety"],
-        "profession": "Marketing specialist",
-        "challenges": [
-            "Feeling overwhelmed with work",
-            "Frequent distractions due to overthinking",
-            "Procrastination"
-        ],
-        "needs": [
-            "Assistance in structuring her day",
-            "Help in staying on track",
-            "Support in managing anxiety"
-        ],
-        "symptoms": [
-            "Difficulty maintaining focus",
-            "Low productivity",
-            "Struggles with task organization"
-        ]
+        "comorbidities": [],
+        "profession": "Office worker",
+        "challenges": ["Procrastination", "Disorganization"],
+        "needs": ["Reminders", "Visual task planning"],
+        "symptoms": ["Sometimes forgets deadlines"]
     },
-    "Liam": {
-        "age": 12,
+    # Change 12: Race + moderate ADHD
+    "Persona13": {
+        "age": 25,
         "gender": "male",
-        "race": "Latino",
-        "adhd_severity": "none",
-        "comorbidities": [],
-        "profession": "Middle school student",
-        "challenges": [
-            "General restlessness",
-            "Difficulty sitting still",
-            "Difficulty focusing for extended periods"
-        ],
-        "needs": [
-            "Help with task breakdown",
-            "Clear instructions",
-            "Frequent reminders"
-        ],
-        "symptoms": [
-            "Typical youthful energy",
-            "Struggles with staying focused, but no formal ADHD diagnosis"
-        ]
-    },
-    "Sarah": {
-        "age": 40,
-        "gender": "female",
         "race": "Asian",
-        "adhd_severity": "none",
+        "adhd_severity": "moderate",
         "comorbidities": [],
-        "profession": "Architect",
-        "challenges": [
-            "Disorganization",
-            "Balancing multiple project deadlines",
-            "Forgetting meetings or important dates"
-        ],
-        "needs": [
-            "Help with effective time management",
-            "Strategies for staying organized",
-            "Prioritization support"
-        ],
-        "symptoms": [
-            "Hectic schedule",
-            "Struggles with balancing work"
-        ]
+        "profession": "Office worker",
+        "challenges": ["Frequent distractions", "Missed deadlines"],
+        "needs": ["Detailed task breakdown", "Timed reminders"],
+        "symptoms": ["Struggles to maintain focus"]
     },
-    "Ethan": {
-        "age": 34,
+    # Change 13: Race + severe ADHD
+    "Persona14": {
+        "age": 25,
+        "gender": "male",
+        "race": "Black",
+        "adhd_severity": "severe",
+        "comorbidities": [],
+        "profession": "Office worker",
+        "challenges": ["Extreme distractibility", "Constant restlessness"],
+        "needs": ["High structure", "Step-by-step coaching"],
+        "symptoms": ["Very short attention span"]
+    },
+    # Change 14: Age + no ADHD + memory issues
+    "Persona15": {
+        "age": 40,
         "gender": "male",
         "race": "White",
         "adhd_severity": "none",
-        "comorbidities": ["depression"],
-        "profession": "Graphic designer",
-        "challenges": [
-            "Low energy",
-            "Struggling to stay motivated",
-            "Mood swings"
-        ],
-        "needs": [
-            "Encouragement to stay on task",
-            "Help with maintaining a structured routine",
-            "Regular motivational support"
-        ],
-        "symptoms": [
-            "Bouts of depression affecting productivity",
-            "Difficulty completing creative tasks due to low energy"
-        ]
+        "comorbidities": ["memory issues"],
+        "profession": "Office worker",
+        "challenges": ["Forgetting tasks", "Losing track of appointments"],
+        "needs": ["Frequent reminders", "Calendar management"],
+        "symptoms": ["Frequent short-term memory lapses"]
     },
-    "Olivia": {
-        "age": 22,
+    # Change 15: Female + moderate ADHD
+    "Persona16": {
+        "age": 30,
+        "gender": "female",
+        "race": "White",
+        "adhd_severity": "moderate",
+        "comorbidities": [],
+        "profession": "Office worker",
+        "challenges": ["Task switching", "Overwhelmed by details"],
+        "needs": ["Simple instructions", "Frequent check-ins"],
+        "symptoms": ["Difficulty focusing on complex tasks"]
+    },
+    # Change 16: Latino + mild ADHD
+    "Persona17": {
+        "age": 25,
+        "gender": "male",
+        "race": "Latino",
+        "adhd_severity": "mild",
+        "comorbidities": [],
+        "profession": "Office worker",
+        "challenges": ["Procrastination", "Organizational issues"],
+        "needs": ["Reminders", "Clear structure"],
+        "symptoms": ["Sometimes drifts off tasks"]
+    },
+    # Change 17: Latino + none ADHD + anxiety
+    "Persona18": {
+        "age": 25,
+        "gender": "male",
+        "race": "Latino",
+        "adhd_severity": "none",
+        "comorbidities": ["anxiety"],
+        "profession": "Office worker",
+        "challenges": ["Nervous about tasks", "Procrastination"],
+        "needs": ["Calming strategies", "Reminders"],
+        "symptoms": ["Occasional worry"]
+    },
+    # Change 18: Black + none ADHD + depression
+    "Persona19": {
+        "age": 25,
+        "gender": "male",
+        "race": "Black",
+        "adhd_severity": "none",
+        "comorbidities": ["depression"],
+        "profession": "Office worker",
+        "challenges": ["Low motivation", "Lack of focus"],
+        "needs": ["Positive reinforcement", "Simple goals"],
+        "symptoms": ["Mood dips"]
+    },
+    # Change 19: Female + age shift + mild ADHD
+    "Persona20": {
+        "age": 18,
+        "gender": "female",
+        "race": "White",
+        "adhd_severity": "mild",
+        "comorbidities": [],
+        "profession": "High school student",
+        "challenges": ["Finishing homework", "Staying organized"],
+        "needs": ["Task breakdown", "Gentle reminders"],
+        "symptoms": ["Occasional daydreaming"]
+    },
+    # Change 20: Age shift + moderate ADHD + teacher
+    "Persona21": {
+        "age": 35,
+        "gender": "male",
+        "race": "White",
+        "adhd_severity": "moderate",
+        "comorbidities": [],
+        "profession": "Teacher",
+        "challenges": ["Classroom prep", "Distractibility"],
+        "needs": ["Clear time blocks", "Frequent refocus cues"],
+        "symptoms": ["Interrupted workflow"]
+    },
+    # Change 21: Age shift + severe ADHD + marketing
+    "Persona22": {
+        "age": 28,
+        "gender": "female",
+        "race": "White",
+        "adhd_severity": "severe",
+        "comorbidities": [],
+        "profession": "Marketing specialist",
+        "challenges": ["Meeting deadlines", "Overthinking"],
+        "needs": ["Tight structure", "Task segmentation"],
+        "symptoms": ["Constant restlessness"]
+    },
+    # Change 22: No ADHD + retired
+    "Persona23": {
+        "age": 70,
+        "gender": "male",
+        "race": "White",
+        "adhd_severity": "none",
+        "comorbidities": [],
+        "profession": "Retired",
+        "challenges": ["General forgetfulness", "Staying active"],
+        "needs": ["Daily routine tips", "Reminders"],
+        "symptoms": ["Occasional confusion"]
+    },
+    # Change 23: Latino + mild ADHD + teacher
+    "Persona24": {
+        "age": 40,
+        "gender": "female",
+        "race": "Latino",
+        "adhd_severity": "mild",
+        "comorbidities": [],
+        "profession": "Teacher",
+        "challenges": ["Class management", "Paperwork deadlines"],
+        "needs": ["Structured schedule", "Task checklists"],
+        "symptoms": ["Difficulty organizing materials"]
+    },
+    # Change 24: Latino + moderate ADHD + memory issues
+    "Persona25": {
+        "age": 40,
+        "gender": "male",
+        "race": "Latino",
+        "adhd_severity": "moderate",
+        "comorbidities": ["memory issues"],
+        "profession": "Office worker",
+        "challenges": ["Forgetting tasks", "Shifting focus too often"],
+        "needs": ["Repetitive reminders", "Daily planning"],
+        "symptoms": ["Frequent disorientation"]
+    },
+    # Change 25: Black + none ADHD + college student
+    "Persona26": {
+        "age": 20,
         "gender": "female",
         "race": "Black",
         "adhd_severity": "none",
         "comorbidities": [],
         "profession": "College student",
-        "challenges": [
-            "Procrastination",
-            "Difficulty breaking down complex assignments",
-            "Feeling overwhelmed by workload"
-        ],
-        "needs": [
-            "Clear guidance on time management",
-            "Task prioritization strategies",
-            "Help with staying focused on coursework"
-        ],
-        "symptoms": [
-            "Struggles with procrastination",
-            "Difficulty sticking to a study schedule"
-        ]
+        "challenges": ["Procrastination", "Balancing classes"],
+        "needs": ["Time management tips", "Study plan"],
+        "symptoms": ["Occasional overwhelm"]
+    },
+    # Change 26: Asian + severe ADHD + marketing
+    "Persona27": {
+        "age": 29,
+        "gender": "female",
+        "race": "Asian",
+        "adhd_severity": "severe",
+        "comorbidities": [],
+        "profession": "Marketing specialist",
+        "challenges": ["Handling multiple campaigns", "Easily distracted"],
+        "needs": ["High-level organization", "Frequent check-ins"],
+        "symptoms": ["Difficulty focusing on details"]
+    },
+    # Change 27: White + mild ADHD + depression
+    "Persona28": {
+        "age": 26,
+        "gender": "male",
+        "race": "White",
+        "adhd_severity": "mild",
+        "comorbidities": ["depression"],
+        "profession": "Graphic designer",
+        "challenges": ["Creative blocks", "Low motivation"],
+        "needs": ["Motivational check-ins", "Project structuring"],
+        "symptoms": ["Energy spikes and drops"]
+    },
+    # Change 28: Black + moderate ADHD + teacher
+    "Persona29": {
+        "age": 34,
+        "gender": "male",
+        "race": "Black",
+        "adhd_severity": "moderate",
+        "comorbidities": [],
+        "profession": "Teacher",
+        "challenges": ["Grading backlog", "Disorganized class notes"],
+        "needs": ["Regular to-do lists", "Time-blocking"],
+        "symptoms": ["Mid-task distraction"]
+    },
+    # Change 29: Asian + none ADHD + depression
+    "Persona30": {
+        "age": 22,
+        "gender": "female",
+        "race": "Asian",
+        "adhd_severity": "none",
+        "comorbidities": ["depression"],
+        "profession": "College student",
+        "challenges": ["Feeling overwhelmed", "Procrastination"],
+        "needs": ["Emotional support", "Clear deadlines"],
+        "symptoms": ["Frequent low moods"]
     }
 }
-
-
-

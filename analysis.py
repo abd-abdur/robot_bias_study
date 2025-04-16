@@ -1,102 +1,86 @@
-import json
 import pandas as pd
-import numpy as np
 import scipy.stats as stats
+import seaborn as sns
+import matplotlib.pyplot as plt
 
+# Load the sentiment results from the output of sentiment analysis
 def load_results(results_file):
-    """
-    Loads the CSV results produced by sentiment_analysis.py and returns a pandas DataFrame.
-    """
-    print(f"Loading results from: {results_file}")
-    df = pd.read_csv(results_file)
+    """Loads the processed sentiment analysis data into a DataFrame."""
+    df = pd.read_csv(results_file)  # Using read_csv since the file is now saved as CSV in the main code
     return df
 
-def demographic_parity_analysis(df, demographic_col='persona'):
-    """
-    Calculate the rate of satisfactory responses for each demographic group.
-    This checks if different groups have the same probability of receiving favorable outcomes.
-    """
-    # Define favorable outcomes (High satisfaction score)
-    df['favorable'] = df['satisfaction_score'].apply(lambda x: 1 if x == 'High' else 0)
-
-    # Calculate the rate of favorable outcomes for each group
-    favorable_rate = df.groupby(demographic_col)['favorable'].mean().reset_index()
-    favorable_rate.columns = [demographic_col, 'favorable_rate']
-
-    print("\nDemographic Parity Analysis:")
-    print(favorable_rate)
-    return favorable_rate
-
-def disparate_impact_analysis(favorable_rate, threshold=0.8):
-    """
-    Perform the 4/5ths rule (Disparate Impact) to check if any group has
-    a disproportionately low favorable rate. Flag groups with less than
-    80% of the best group's favorable rate.
-    """
-    # Find the maximum favorable rate (best group)
-    max_rate = favorable_rate['favorable_rate'].max()
-
-    # Calculate impact ratios for each group
-    favorable_rate['impact_ratio'] = favorable_rate['favorable_rate'] / max_rate
-    favorable_rate['disparate_impact'] = favorable_rate['impact_ratio'] < threshold
-
-    print("\nDisparate Impact Analysis (4/5ths rule):")
-    print(favorable_rate)
-    return favorable_rate
-
-def intersectional_analysis(df):
-    """
-    Perform intersectional analysis of multiple demographic attributes (e.g., race × gender × ADHD severity).
-    Analyzes how these factors interact and affect the outcomes.
-    """
-    print("\nIntersectional Analysis:")
-    intersectional_data = df.groupby(['persona', 'satisfaction_score']).size().unstack(fill_value=0)
-    print(intersectional_data)
-    return intersectional_data
-
-def significance_testing(df):
-    """
-    Perform statistical significance testing (e.g., ANOVA, chi-square) to determine if the observed disparities
-    in satisfaction scores across demographic groups are statistically significant.
-    """
-    # Convert satisfaction scores to numeric values (1 for High, 0 for Neutral, -1 for Low)
-    satisfaction_mapping = {'High': 1, 'Neutral': 0, 'Low': -1}
-    df['satisfaction_score_numeric'] = df['satisfaction_score'].map(satisfaction_mapping)
-
-    # Group by persona and apply ANOVA for satisfaction scores
-    persona_groups = df.groupby('persona')['satisfaction_score_numeric'].apply(list)
+# Demographic Parity Analysis: Check if response length, response time, and sentiment scores differ significantly across different demographic characteristics
+def demographic_parity_analysis(df):
+    """Analyze biases across demographic groups for response length, response time, and sentiment score."""
+    demographic_columns = ['gender', 'race', 'adhd_severity', 'age_group']
     
-    # Perform one-way ANOVA test
-    f_statistic, p_value = stats.f_oneway(*persona_groups)
+    # Perform group-by for demographics
+    demographic_groups = df.groupby(demographic_columns).agg({
+        'sentiment_score': ['mean', 'std'],
+        'response_length': ['mean', 'std'],
+        'response_time_seconds': ['mean', 'std']
+    }).reset_index()
 
-    print("\nANOVA Results for Satisfaction Score across Personas:")
-    print(f"F-statistic: {f_statistic}, P-value: {p_value}")
-    return f_statistic, p_value
+    print("Demographic Parity Analysis:\n", demographic_groups)
 
-def analyze_bias_by_demographics(results_file):
-    """
-    Perform demographic parity and disparate impact analysis,
-    and significance testing on the results.
-    """
-    # Load the results (JSON or CSV)
+    # Perform ANOVA to check for significant differences across groups for each feature
+    for feature in ['sentiment_score', 'response_length', 'response_time_seconds']:
+        anova_result = stats.f_oneway(*[group[1][feature] for group in df.groupby(demographic_columns)] )
+        print(f"ANOVA result for {feature} -> F-statistic: {anova_result.statistic}, p-value: {anova_result.pvalue}")
+        if anova_result.pvalue < 0.05:
+            print(f"Significant differences found for {feature}.")
+        else:
+            print(f"No significant differences for {feature}.")
+
+# Analyze the intersection of demographic factors (e.g., age × race × ADHD severity)
+def intersecting_demographic_factors_analysis(df):
+    """Analyze the impact of intersecting demographic factors on response length, response time, and sentiment score."""
+    # The 'age_group' is already categorized into: "Youth", "Teenager", "Adult", "Senior"
+    # No need for further binning or conversion, it's already ready to use.
+    
+    # Check if 'age_group' is correctly populated
+    print(f"Unique Age Groups: {df['age_group'].unique()}")
+
+    # Create intersection of factors (age_group × race × ADHD severity)
+    intersected_groups = df.groupby(['age_group', 'race', 'adhd_severity']).agg({
+        'sentiment_score': ['mean', 'std'],
+        'response_length': ['mean', 'std'],
+        'response_time_seconds': ['mean', 'std']
+    }).reset_index()
+
+    print("Intersecting Factors Analysis:\n", intersected_groups)
+
+    # Visualize the intersecting factors with a heatmap for sentiment score, response length, and response time
+    sentiment_heatmap = df.pivot_table(index='race', columns='age_group', values='sentiment_score', aggfunc='mean')
+    response_length_heatmap = df.pivot_table(index='race', columns='age_group', values='response_length', aggfunc='mean')
+    response_time_heatmap = df.pivot_table(index='race', columns='age_group', values='response_time_seconds', aggfunc='mean')
+
+    # Plot heatmaps
+    plt.figure(figsize=(12, 6))
+    sns.heatmap(sentiment_heatmap, annot=True, cmap='coolwarm', fmt=".2f")
+    plt.title("Sentiment Score by Age Group and Race")
+    plt.show()
+
+    plt.figure(figsize=(12, 6))
+    sns.heatmap(response_length_heatmap, annot=True, cmap='coolwarm', fmt=".2f")
+    plt.title("Response Length by Age Group and Race")
+    plt.show()
+
+    plt.figure(figsize=(12, 6))
+    sns.heatmap(response_time_heatmap, annot=True, cmap='coolwarm', fmt=".2f")
+    plt.title("Response Time by Age Group and Race")
+    plt.show()
+
+# Main Function to run all analyses
+def main():
+    results_file = "real_responses_with_sentiment.csv"  # Example file name from the main code
     df = load_results(results_file)
 
-    # Demographic Parity Analysis: Calculate the favorable rates for each demographic group
-    favorable_rate = demographic_parity_analysis(df, demographic_col='persona')
+    # Perform Demographic Parity Analysis to check if sentiment differs across demographic characteristics
+    demographic_parity_analysis(df)
 
-    # Disparate Impact Analysis: Check for disparate impact using the 4/5ths rule
-    disparate_impact_analysis(favorable_rate, threshold=0.8)
-
-    # Intersectional Analysis: Examine how race, gender, ADHD severity interact
-    intersectional_analysis(df)
-
-    # Significance Testing: Check if observed disparities in satisfaction are statistically significant
-    significance_testing(df)
-
-def main():
-    # Provide the path to the results file (with sentiment analysis already included)
-    results_file = "test_results_2025-04-06_15-07-08_with_sentiment.csv"  # Update with the actual file name
-    analyze_bias_by_demographics(results_file)
+    # Perform Intersecting Demographic Factors Analysis to analyze the combined impact of age, race, and ADHD severity
+    intersecting_demographic_factors_analysis(df)
 
 if __name__ == "__main__":
     main()

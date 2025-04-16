@@ -1,145 +1,171 @@
 import pandas as pd
+import scipy.stats as stats
 import seaborn as sns
 import matplotlib.pyplot as plt
-import numpy as np
+import os
+from personas import personas
 
+# Ensure the visualization directory exists
+if not os.path.exists("visualisation"):
+    os.makedirs("visualisation")
+
+# Load the sentiment results from the output of sentiment analysis
 def load_results(results_file):
-    """
-    Loads the CSV results produced by sentiment_analysis.py and returns a pandas DataFrame.
-    """
-    df = pd.read_csv(results_file)
+    """Loads the processed sentiment analysis data into a DataFrame."""
+    df = pd.read_csv(results_file)  # Using read_csv since the file is now saved as CSV in the main code
     return df
 
-def plot_demographic_parity(df):
-    """
-    Generates a bar plot comparing the rate of favorable outcomes (high satisfaction)
-    across different demographic groups (e.g., personas).
-    """
-    # Calculate the favorable rate (satisfaction score 'High')
-    favorable_rate = df.groupby('persona')['satisfaction_score'].apply(lambda x: (x == 'High').mean()).reset_index()
-    favorable_rate.columns = ['persona', 'favorable_rate']
-    
-    plt.figure(figsize=(10, 6))
-    sns.barplot(x='persona', y='favorable_rate', data=favorable_rate, palette='viridis')
-    plt.title('Favorable Outcome Rate by Persona')
-    plt.xlabel('Persona')
-    plt.ylabel('Favorable Outcome Rate')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.show()
+# Granular Heatmaps: Break down heatmaps by intersecting factors (e.g., age × race × ADHD severity)
+def granular_heatmaps(df):
+    """Creates granular heatmaps to display intersecting demographic factors."""
+    # Since the 'age_group' column already has labeled categories, we use it directly
+    print(f"Unique Age Groups: {df['age_group'].unique()}")
 
-def plot_disparate_impact(df):
-    """
-    Generates a bar plot to show disparate impact between demographic groups.
-    Applies the 4/5ths rule to highlight groups with disparity.
-    """
-    # Calculate the favorable outcome rate per persona
-    favorable_rate = df.groupby('persona')['satisfaction_score'].apply(lambda x: (x == 'High').mean()).reset_index()
-    favorable_rate.columns = ['persona', 'favorable_rate']
-    
-    max_rate = favorable_rate['favorable_rate'].max()
-    favorable_rate['impact_ratio'] = favorable_rate['favorable_rate'] / max_rate
-    favorable_rate['disparate_impact'] = favorable_rate['impact_ratio'] < 0.8
-    
-    # Plot impact ratio with flagged disparity
-    plt.figure(figsize=(10, 6))
-    sns.barplot(x='persona', y='impact_ratio', data=favorable_rate, palette='coolwarm')
-    plt.title('Impact Ratio by Persona (4/5ths Rule)')
-    plt.xlabel('Persona')
-    plt.ylabel('Impact Ratio')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.show()
-    
-    # Highlight disparity groups
-    print("\nDisparate Impact (4/5ths Rule) Results:")
-    print(favorable_rate[['persona', 'impact_ratio', 'disparate_impact']])
+    # Create intersection of factors (age_group × race × ADHD severity)
+    intersected_groups = df.groupby(['age_group', 'race', 'adhd_severity']).agg({
+        'sentiment_score': ['mean', 'std'],
+        'response_length': ['mean', 'std'],
+        'response_time_seconds': ['mean', 'std']
+    }).reset_index()
 
-def plot_sentiment_by_task(df):
-    """
-    Generate a bar plot comparing sentiment scores across different tasks.
-    """
-    # Group by task and calculate mean sentiment score
-    sentiment_by_task = df.groupby('task')['sentiment_score'].mean().reset_index()
-    
+    # Pivot tables for heatmaps
+    sentiment_heatmap = df.pivot_table(index='race', columns='age_group', values='sentiment_score', aggfunc='mean')
+    response_length_heatmap = df.pivot_table(index='race', columns='age_group', values='response_length', aggfunc='mean')
+    response_time_heatmap = df.pivot_table(index='race', columns='age_group', values='response_time_seconds', aggfunc='mean')
+
+    # Plot heatmaps with ADHD severity included
     plt.figure(figsize=(12, 6))
-    sns.barplot(x='sentiment_score', y='task', data=sentiment_by_task, palette='coolwarm')
-    plt.title('Average Sentiment Score by Task')
-    plt.xlabel('Average Sentiment Score')
-    plt.ylabel('Task')
-    plt.tight_layout()
+    sns.heatmap(sentiment_heatmap, annot=True, cmap='coolwarm', fmt=".2f")
+    plt.title("Sentiment Score by Age Group and Race")
+    plt.savefig("visualisation/sentiment_heatmap.png")
     plt.show()
 
-def plot_satisfaction_by_task(df):
-    """
-    Generate a bar plot comparing the satisfaction score across tasks.
-    """
-    # Calculate the satisfaction rate per task
-    satisfaction_by_task = df.groupby('task')['satisfaction_score'].apply(lambda x: (x == 'High').mean()).reset_index()
-    satisfaction_by_task.columns = ['task', 'satisfaction_rate']
-    
     plt.figure(figsize=(12, 6))
-    sns.barplot(x='satisfaction_rate', y='task', data=satisfaction_by_task, palette='viridis')
-    plt.title('Satisfaction Rate by Task')
-    plt.xlabel('Satisfaction Rate')
-    plt.ylabel('Task')
-    plt.tight_layout()
+    sns.heatmap(response_length_heatmap, annot=True, cmap='coolwarm', fmt=".2f")
+    plt.title("Response Length by Age Group and Race")
+    plt.savefig("visualisation/response_length_heatmap.png")
     plt.show()
 
-def plot_response_time_by_persona(df):
-    """
-    Generate a boxplot to show response times by persona.
-    """
-    plt.figure(figsize=(10, 6))
-    sns.boxplot(x='persona', y='response_time', data=df, palette='viridis')
-    plt.title('Response Time by Persona')
-    plt.xlabel('Persona')
-    plt.ylabel('Response Time (seconds)')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.show()
-
-def plot_response_time_by_task(df):
-    """
-    Generate a boxplot to show response times by task.
-    """
     plt.figure(figsize=(12, 6))
-    sns.boxplot(x='task', y='response_time', data=df, palette='viridis')
-    plt.title('Response Time by Task')
-    plt.xlabel('Task')
-    plt.ylabel('Response Time (seconds)')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
+    sns.heatmap(response_time_heatmap, annot=True, cmap='coolwarm', fmt=".2f")
+    plt.title("Response Time by Age Group and Race")
+    plt.savefig("visualisation/response_time_heatmap.png")
     plt.show()
 
-def plot_satisfaction_distribution(df):
-    """
-    Generate a bar plot to show the distribution of satisfaction scores (High, Neutral, Low).
-    """
-    satisfaction_counts = df['satisfaction_score'].value_counts().reset_index()
-    satisfaction_counts.columns = ['satisfaction_score', 'count']
+# Demographic Parity Analysis: Check if response length, response time, and sentiment scores differ significantly across different demographic characteristics
+def demographic_parity_analysis(df):
+    """Analyze biases across demographic groups for response length, response time, and sentiment score."""
+    demographic_columns = ['age_group', 'gender', 'race', 'adhd_severity']
     
-    plt.figure(figsize=(8, 6))
-    sns.barplot(x='satisfaction_score', y='count', data=satisfaction_counts, palette='viridis')
-    plt.title('Satisfaction Score Distribution')
-    plt.xlabel('Satisfaction Score')
-    plt.ylabel('Count')
-    plt.tight_layout()
+    # Perform group-by for demographics
+    demographic_groups = df.groupby(demographic_columns).agg({
+        'sentiment_score': ['mean', 'std'],
+        'response_length': ['mean', 'std'],
+        'response_time_seconds': ['mean', 'std']
+    }).reset_index()
+
+    print("Demographic Parity Analysis:\n", demographic_groups)
+
+    # Perform ANOVA to check for significant differences across groups for each feature
+    for feature in ['sentiment_score', 'response_length', 'response_time_seconds']:
+        anova_result = stats.f_oneway(*[group[1][feature] for group in df.groupby(demographic_columns)] )
+        print(f"ANOVA result for {feature} -> F-statistic: {anova_result.statistic}, p-value: {anova_result.pvalue}")
+        if anova_result.pvalue < 0.05:
+            print(f"Significant differences found for {feature}.")
+        else:
+            print(f"No significant differences for {feature}.")
+
+# Visualizations for biases across demographics
+def visualize_demographics(df):
+    """Visualize demographic distributions and biases across response length, response time, and sentiment score."""
+    # Sentiment score distribution by gender, race, ADHD severity, and age range
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='gender', y='sentiment_score', data=df)
+    plt.title('Sentiment Score Distribution by Gender')
+    plt.savefig("visualisation/sentiment_gender_boxplot.png")
     plt.show()
 
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='race', y='sentiment_score', data=df)
+    plt.title('Sentiment Score Distribution by Race')
+    plt.savefig("visualisation/sentiment_race_boxplot.png")
+    plt.show()
+
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='age_group', y='sentiment_score', data=df)
+    plt.title('Sentiment Score Distribution by Age Group')
+    plt.savefig("visualisation/sentiment_age_group_boxplot.png")
+    plt.show()
+
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='adhd_severity', y='sentiment_score', data=df)
+    plt.title('Sentiment Score Distribution by ADHD Severity')
+    plt.savefig("visualisation/sentiment_adhd_severity_boxplot.png")
+    plt.show()
+
+    # Response length distribution by gender, race, ADHD severity, and age range
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='gender', y='response_length', data=df)
+    plt.title('Response Length Distribution by Gender')
+    plt.savefig("visualisation/response_length_gender_boxplot.png")
+    plt.show()
+
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='race', y='response_length', data=df)
+    plt.title('Response Length Distribution by Race')
+    plt.savefig("visualisation/response_length_race_boxplot.png")
+    plt.show()
+
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='age_group', y='response_length', data=df)
+    plt.title('Response Length Distribution by Age Group')
+    plt.savefig("visualisation/response_length_age_group_boxplot.png")
+    plt.show()
+
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='adhd_severity', y='response_length', data=df)
+    plt.title('Response Length Distribution by ADHD Severity')
+    plt.savefig("visualisation/response_length_adhd_severity_boxplot.png")
+    plt.show()
+
+    # Response time distribution by gender, race, ADHD severity, and age range
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='gender', y='response_time_seconds', data=df)
+    plt.title('Response Time Distribution by Gender')
+    plt.savefig("visualisation/response_time_gender_boxplot.png")
+    plt.show()
+
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='race', y='response_time_seconds', data=df)
+    plt.title('Response Time Distribution by Race')
+    plt.savefig("visualisation/response_time_race_boxplot.png")
+    plt.show()
+
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='age_group', y='response_time_seconds', data=df)
+    plt.title('Response Time Distribution by Age Group')
+    plt.savefig("visualisation/response_time_age_group_boxplot.png")
+    plt.show()
+
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(x='adhd_severity', y='response_time_seconds', data=df)
+    plt.title('Response Time Distribution by ADHD Severity')
+    plt.savefig("visualisation/response_time_adhd_severity_boxplot.png")
+    plt.show()
+
+# Main Function to run all analyses
 def main():
-    # Load the CSV results file generated from sentiment_analysis.py
-    results_file = "test_results_2025-04-06_15-07-08_with_sentiment.csv"  # Change this to the actual file path
-    df = pd.read_csv(results_file)
+    results_file = "real_responses_with_sentiment.csv"  # Example file name from the main code
+    df = load_results(results_file)
 
-    # Perform the bias detection and visualizations
-    plot_demographic_parity(df)
-    plot_disparate_impact(df)
-    plot_sentiment_by_task(df)
-    plot_satisfaction_by_task(df)
-    plot_response_time_by_persona(df)
-    plot_response_time_by_task(df)
-    plot_satisfaction_distribution(df)
+    # Perform Demographic Parity Analysis to check if sentiment differs across demographic characteristics
+    demographic_parity_analysis(df)
+
+    # Perform Granular Heatmaps for demographic intersections (age × race × ADHD severity)
+    granular_heatmaps(df)
+
+    # Visualize the biases across different demographics
+    visualize_demographics(df)
 
 if __name__ == "__main__":
     main()
